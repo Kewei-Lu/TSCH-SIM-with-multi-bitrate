@@ -1,0 +1,35 @@
+{
+    "SIMULATION_DURATION_SEC": 3600,
+    "MAC_HOPPING_SEQUENCE" : "TSCH_HOPPING_SEQUENCE_1_1",
+    "NODE_TYPES": [
+        {
+            "NAME": "static",
+            "START_ID": 1,
+            "COUNT": 1,
+            "APP_PACKETS": {"APP_PACKET_PERIOD_SEC": 20, "TO_ID": 2}
+        },
+        {
+            "NAME": "mobile",
+            "START_ID": 2,
+            "COUNT": 1,
+            "MOBILITY_MODEL": "Line",
+            "MOBILITY_RANGE_X": 1000,
+            "MOBILITY_RANGE_Y": 0,
+            "MOBILITY_SPEED": 1.1,
+            "ROUTING_IS_LEAF": true,
+            "APP_PACKETS": {"APP_PACKET_PERIOD_SEC": 20, "TO_ID": 1}
+        }
+    ],
+    "CONNECTIONS" : [
+      
+        {"FROM_NODE_TYPE": "static", "TO_NODE_TYPE": "mobile","LINK_MODEL" : "LogisticLoss"},
+        {"FROM_NODE_TYPE": "mobile", "TO_NODE_TYPE": "static","LINK_MODEL" : "LogisticLoss"}
+    ],
+    "POSITIONS" : [
+        {"ID": 1, "X": 0, "Y": 0},
+        {"ID": 2, "X": 1, "Y": 0}
+    ],
+    "LOG_LEVELS" : {
+        "Mobility": 4
+    }
+}

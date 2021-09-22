@@ -1,0 +1,245 @@
+asn=0    	id=-1  	Main	copying configuration file /home/lkw/tsch-sim-history/tsch-sim/examples/mesh/config2.json to output directory /home/lkw/tsch-sim-history/tsch-sim/examples/mesh/results/single_model_diff_packet_period/7200s-5704-36-0/config2.json
+asn=0    	id=-1  	Main	initializing 3600 seconds long simulation...
+asn=0    	id=-1  	network	network stats has been reset
+asn=0    	id=-1  	Main	time.timeline.slot_timings 0.005704,0.005704,0.005704,0.005704,0.005704,0.005704,0.005704,0.005704,0.005704,0.005704,0.005704,0.005704,0.005704,0.005704,0.005704,0.005704,0.005704
+asn=0    	id=-1  	Main	creating 6 "node" nodes...
+asn=0    	id=-1  	Main	starting simulation main loop...
+asn=0    	id=-1  	Main	add network to timeslot switcher
+asn=0    	id=-1  	Main	network = [object Object]
+asn=20000	id=-1  	User	node id = 1, no parent
+asn=20000	id=-1  	User	node id = 2, parent = 1
+asn=20000	id=-1  	User	node id = 3, parent = 1
+asn=20000	id=-1  	User	node id = 4, parent = 1
+asn=20000	id=-1  	User	node id = 5, parent = 1
+asn=20000	id=-1  	User	node id = 6, parent = 1
+asn=37000	id=-1  	User	node id = 1, no parent
+asn=37000	id=-1  	User	node id = 2, parent = 1
+asn=37000	id=-1  	User	node id = 3, parent = 1
+asn=37000	id=-1  	User	node id = 4, parent = 1
+asn=37000	id=-1  	User	node id = 5, parent = 1
+asn=37000	id=-1  	User	node id = 6, parent = 1
+asn=54000	id=-1  	User	node id = 1, no parent
+asn=54000	id=-1  	User	node id = 2, parent = 1
+asn=54000	id=-1  	User	node id = 3, parent = 1
+asn=54000	id=-1  	User	node id = 4, parent = 1
+asn=54000	id=-1  	User	node id = 5, parent = 1
+asn=54000	id=-1  	User	node id = 6, parent = 1
+asn=71000	id=-1  	User	node id = 1, no parent
+asn=71000	id=-1  	User	node id = 2, parent = 1
+asn=71000	id=-1  	User	node id = 3, parent = 1
+asn=71000	id=-1  	User	node id = 4, parent = 1
+asn=71000	id=-1  	User	node id = 5, parent = 1
+asn=71000	id=-1  	User	node id = 6, parent = 1
+asn=88000	id=-1  	User	node id = 1, no parent
+asn=88000	id=-1  	User	node id = 2, parent = 1
+asn=88000	id=-1  	User	node id = 3, parent = 1
+asn=88000	id=-1  	User	node id = 4, parent = 1
+asn=88000	id=-1  	User	node id = 5, parent = 1
+asn=88000	id=-1  	User	node id = 6, parent = 1
+asn=105000	id=-1  	User	node id = 1, no parent
+asn=105000	id=-1  	User	node id = 2, parent = 1
+asn=105000	id=-1  	User	node id = 3, parent = 1
+asn=105000	id=-1  	User	node id = 4, parent = 1
+asn=105000	id=-1  	User	node id = 5, parent = 1
+asn=105000	id=-1  	User	node id = 6, parent = 1
+asn=122000	id=-1  	User	node id = 1, no parent
+asn=122000	id=-1  	User	node id = 2, parent = 1
+asn=122000	id=-1  	User	node id = 3, parent = 1
+asn=122000	id=-1  	User	node id = 4, parent = 1
+asn=122000	id=-1  	User	node id = 5, parent = 1
+asn=122000	id=-1  	User	node id = 6, parent = 1
+asn=139000	id=-1  	User	node id = 1, no parent
+asn=139000	id=-1  	User	node id = 2, parent = 1
+asn=139000	id=-1  	User	node id = 3, parent = 1
+asn=139000	id=-1  	User	node id = 4, parent = 1
+asn=139000	id=-1  	User	node id = 5, parent = 1
+asn=139000	id=-1  	User	node id = 6, parent = 1
+asn=156000	id=-1  	User	node id = 1, no parent
+asn=156000	id=-1  	User	node id = 2, parent = 1
+asn=156000	id=-1  	User	node id = 3, parent = 1
+asn=156000	id=-1  	User	node id = 4, parent = 1
+asn=156000	id=-1  	User	node id = 5, parent = 1
+asn=156000	id=-1  	User	node id = 6, parent = 1
+asn=173000	id=-1  	User	node id = 1, no parent
+asn=173000	id=-1  	User	node id = 2, parent = 1
+asn=173000	id=-1  	User	node id = 3, parent = 1
+asn=173000	id=-1  	User	node id = 4, parent = 1
+asn=173000	id=-1  	User	node id = 5, parent = 1
+asn=173000	id=-1  	User	node id = 6, parent = 1
+asn=190000	id=-1  	User	node id = 1, no parent
+asn=190000	id=-1  	User	node id = 2, parent = 1
+asn=190000	id=-1  	User	node id = 3, parent = 1
+asn=190000	id=-1  	User	node id = 4, parent = 1
+asn=190000	id=-1  	User	node id = 5, parent = 1
+asn=190000	id=-1  	User	node id = 6, parent = 1
+asn=207000	id=-1  	User	node id = 1, no parent
+asn=207000	id=-1  	User	node id = 2, parent = 1
+asn=207000	id=-1  	User	node id = 3, parent = 1
+asn=207000	id=-1  	User	node id = 4, parent = 1
+asn=207000	id=-1  	User	node id = 5, parent = 1
+asn=207000	id=-1  	User	node id = 6, parent = 1
+asn=224000	id=-1  	User	node id = 1, no parent
+asn=224000	id=-1  	User	node id = 2, parent = 1
+asn=224000	id=-1  	User	node id = 3, parent = 1
+asn=224000	id=-1  	User	node id = 4, parent = 1
+asn=224000	id=-1  	User	node id = 5, parent = 1
+asn=224000	id=-1  	User	node id = 6, parent = 1
+asn=241000	id=-1  	User	node id = 1, no parent
+asn=241000	id=-1  	User	node id = 2, parent = 1
+asn=241000	id=-1  	User	node id = 3, parent = 1
+asn=241000	id=-1  	User	node id = 4, parent = 1
+asn=241000	id=-1  	User	node id = 5, parent = 1
+asn=241000	id=-1  	User	node id = 6, parent = 1
+asn=258000	id=-1  	User	node id = 1, no parent
+asn=258000	id=-1  	User	node id = 2, parent = 1
+asn=258000	id=-1  	User	node id = 3, parent = 1
+asn=258000	id=-1  	User	node id = 4, parent = 1
+asn=258000	id=-1  	User	node id = 5, parent = 1
+asn=258000	id=-1  	User	node id = 6, parent = 1
+asn=275000	id=-1  	User	node id = 1, no parent
+asn=275000	id=-1  	User	node id = 2, parent = 1
+asn=275000	id=-1  	User	node id = 3, parent = 1
+asn=275000	id=-1  	User	node id = 4, parent = 1
+asn=275000	id=-1  	User	node id = 5, parent = 1
+asn=275000	id=-1  	User	node id = 6, parent = 1
+asn=292000	id=-1  	User	node id = 1, no parent
+asn=292000	id=-1  	User	node id = 2, parent = 1
+asn=292000	id=-1  	User	node id = 3, parent = 1
+asn=292000	id=-1  	User	node id = 4, parent = 1
+asn=292000	id=-1  	User	node id = 5, parent = 1
+asn=292000	id=-1  	User	node id = 6, parent = 1
+asn=309000	id=-1  	User	node id = 1, no parent
+asn=309000	id=-1  	User	node id = 2, parent = 1
+asn=309000	id=-1  	User	node id = 3, parent = 1
+asn=309000	id=-1  	User	node id = 4, parent = 1
+asn=309000	id=-1  	User	node id = 5, parent = 1
+asn=309000	id=-1  	User	node id = 6, parent = 1
+asn=326000	id=-1  	User	node id = 1, no parent
+asn=326000	id=-1  	User	node id = 2, parent = 1
+asn=326000	id=-1  	User	node id = 3, parent = 1
+asn=326000	id=-1  	User	node id = 4, parent = 1
+asn=326000	id=-1  	User	node id = 5, parent = 1
+asn=326000	id=-1  	User	node id = 6, parent = 1
+asn=343000	id=-1  	User	node id = 1, no parent
+asn=343000	id=-1  	User	node id = 2, parent = 1
+asn=343000	id=-1  	User	node id = 3, parent = 1
+asn=343000	id=-1  	User	node id = 4, parent = 1
+asn=343000	id=-1  	User	node id = 5, parent = 1
+asn=343000	id=-1  	User	node id = 6, parent = 1
+asn=360000	id=-1  	User	node id = 1, no parent
+asn=360000	id=-1  	User	node id = 2, parent = 1
+asn=360000	id=-1  	User	node id = 3, parent = 1
+asn=360000	id=-1  	User	node id = 4, parent = 1
+asn=360000	id=-1  	User	node id = 5, parent = 1
+asn=360000	id=-1  	User	node id = 6, parent = 1
+asn=377000	id=-1  	User	node id = 1, no parent
+asn=377000	id=-1  	User	node id = 2, parent = 1
+asn=377000	id=-1  	User	node id = 3, parent = 1
+asn=377000	id=-1  	User	node id = 4, parent = 1
+asn=377000	id=-1  	User	node id = 5, parent = 1
+asn=377000	id=-1  	User	node id = 6, parent = 1
+asn=394000	id=-1  	User	node id = 1, no parent
+asn=394000	id=-1  	User	node id = 2, parent = 1
+asn=394000	id=-1  	User	node id = 3, parent = 1
+asn=394000	id=-1  	User	node id = 4, parent = 1
+asn=394000	id=-1  	User	node id = 5, parent = 1
+asn=394000	id=-1  	User	node id = 6, parent = 1
+asn=411000	id=-1  	User	node id = 1, no parent
+asn=411000	id=-1  	User	node id = 2, parent = 1
+asn=411000	id=-1  	User	node id = 3, parent = 1
+asn=411000	id=-1  	User	node id = 4, parent = 1
+asn=411000	id=-1  	User	node id = 5, parent = 1
+asn=411000	id=-1  	User	node id = 6, parent = 1
+asn=428000	id=-1  	User	node id = 1, no parent
+asn=428000	id=-1  	User	node id = 2, parent = 1
+asn=428000	id=-1  	User	node id = 3, parent = 1
+asn=428000	id=-1  	User	node id = 4, parent = 1
+asn=428000	id=-1  	User	node id = 5, parent = 1
+asn=428000	id=-1  	User	node id = 6, parent = 1
+asn=445000	id=-1  	User	node id = 1, no parent
+asn=445000	id=-1  	User	node id = 2, parent = 1
+asn=445000	id=-1  	User	node id = 3, parent = 1
+asn=445000	id=-1  	User	node id = 4, parent = 1
+asn=445000	id=-1  	User	node id = 5, parent = 1
+asn=445000	id=-1  	User	node id = 6, parent = 1
+asn=462000	id=-1  	User	node id = 1, no parent
+asn=462000	id=-1  	User	node id = 2, parent = 1
+asn=462000	id=-1  	User	node id = 3, parent = 1
+asn=462000	id=-1  	User	node id = 4, parent = 1
+asn=462000	id=-1  	User	node id = 5, parent = 1
+asn=462000	id=-1  	User	node id = 6, parent = 1
+asn=479000	id=-1  	User	node id = 1, no parent
+asn=479000	id=-1  	User	node id = 2, parent = 1
+asn=479000	id=-1  	User	node id = 3, parent = 1
+asn=479000	id=-1  	User	node id = 4, parent = 1
+asn=479000	id=-1  	User	node id = 5, parent = 1
+asn=479000	id=-1  	User	node id = 6, parent = 1
+asn=496000	id=-1  	User	node id = 1, no parent
+asn=496000	id=-1  	User	node id = 2, parent = 1
+asn=496000	id=-1  	User	node id = 3, parent = 1
+asn=496000	id=-1  	User	node id = 4, parent = 1
+asn=496000	id=-1  	User	node id = 5, parent = 1
+asn=496000	id=-1  	User	node id = 6, parent = 1
+asn=513000	id=-1  	User	node id = 1, no parent
+asn=513000	id=-1  	User	node id = 2, parent = 1
+asn=513000	id=-1  	User	node id = 3, parent = 1
+asn=513000	id=-1  	User	node id = 4, parent = 1
+asn=513000	id=-1  	User	node id = 5, parent = 1
+asn=513000	id=-1  	User	node id = 6, parent = 1
+asn=530000	id=-1  	User	node id = 1, no parent
+asn=530000	id=-1  	User	node id = 2, parent = 1
+asn=530000	id=-1  	User	node id = 3, parent = 1
+asn=530000	id=-1  	User	node id = 4, parent = 1
+asn=530000	id=-1  	User	node id = 5, parent = 1
+asn=530000	id=-1  	User	node id = 6, parent = 1
+asn=547000	id=-1  	User	node id = 1, no parent
+asn=547000	id=-1  	User	node id = 2, parent = 1
+asn=547000	id=-1  	User	node id = 3, parent = 1
+asn=547000	id=-1  	User	node id = 4, parent = 1
+asn=547000	id=-1  	User	node id = 5, parent = 1
+asn=547000	id=-1  	User	node id = 6, parent = 1
+asn=564000	id=-1  	User	node id = 1, no parent
+asn=564000	id=-1  	User	node id = 2, parent = 1
+asn=564000	id=-1  	User	node id = 3, parent = 1
+asn=564000	id=-1  	User	node id = 4, parent = 1
+asn=564000	id=-1  	User	node id = 5, parent = 1
+asn=564000	id=-1  	User	node id = 6, parent = 1
+asn=581000	id=-1  	User	node id = 1, no parent
+asn=581000	id=-1  	User	node id = 2, parent = 1
+asn=581000	id=-1  	User	node id = 3, parent = 1
+asn=581000	id=-1  	User	node id = 4, parent = 1
+asn=581000	id=-1  	User	node id = 5, parent = 1
+asn=581000	id=-1  	User	node id = 6, parent = 1
+asn=598000	id=-1  	User	node id = 1, no parent
+asn=598000	id=-1  	User	node id = 2, parent = 1
+asn=598000	id=-1  	User	node id = 3, parent = 1
+asn=598000	id=-1  	User	node id = 4, parent = 1
+asn=598000	id=-1  	User	node id = 5, parent = 1
+asn=598000	id=-1  	User	node id = 6, parent = 1
+asn=615000	id=-1  	User	node id = 1, no parent
+asn=615000	id=-1  	User	node id = 2, parent = 1
+asn=615000	id=-1  	User	node id = 3, parent = 1
+asn=615000	id=-1  	User	node id = 4, parent = 1
+asn=615000	id=-1  	User	node id = 5, parent = 1
+asn=615000	id=-1  	User	node id = 6, parent = 1
+asn=631136	id=-1  	Main	ending simulation at 3600.000 seconds
+asn=631136	id=-1  	Main	detail_tx 0.000035528891415093605,tx=0.000035528891415093605,detail_rx 0.000263033352035749,rx =0.03477148025012842 
+asn=631136	id=-1  	Main	charge_joined_uc=1209958.318 radio_duty_cycle_joined=3.481 
+asn=631136	id=-1  	Main	detail_tx 0.000047795558953955046,tx=0.000047795558953955046,detail_rx 0.00009337333997244203,rx =0.03586555366125347 
+asn=631136	id=-1  	Main	charge_joined_uc=1254268.187 radio_duty_cycle_joined=3.591 
+asn=631136	id=-1  	Main	detail_tx 0.000044348892042220604,tx=0.00004434889204222061,detail_rx 0.00011224000798058219,rx =0.035842109215142054 
+asn=631136	id=-1  	Main	charge_joined_uc=1252784.646 radio_duty_cycle_joined=3.589 
+asn=631136	id=-1  	Main	detail_tx 0.000044000003128524734,tx=0.000044000003128524734,detail_rx 0.00010484445189918166,rx =0.035852135882521646 
+asn=631136	id=-1  	Main	charge_joined_uc=1253395.516 radio_duty_cycle_joined=3.59 
+asn=631136	id=-1  	Main	detail_tx 0.00006898000490467354,tx=0.00006898000490467354,detail_rx 0.00009360222887760556,rx =0.03587449366188913 
+asn=631136	id=-1  	Main	charge_joined_uc=1254573.622 radio_duty_cycle_joined=3.594 
+asn=631136	id=-1  	Main	detail_tx 0.00007125333839964732,tx=0.00007125333839964732,detail_rx 0.00009214445099617566,rx =0.035875524773073555 
+asn=631136	id=-1  	Main	charge_joined_uc=1254660.889 radio_duty_cycle_joined=3.595 
+asn=631136	id=-1  	Main	packet stats: PDR=99.588% generated=485 received=483 lost=2 (tx_limit/queue/routing/scheduling/other=2/0/0/0/0)
+asn=631136	id=-1  	Main	link stats: PAR=53.552% tx=915 acked=490
+asn=631136	id=-1  	Main	link stats: tx=1104 rx=1801 tx_unicat=955,this.stats_mac_acked=630
+asn=631136	id=-1  	Main	current-consumed=2.078 current-consumed-when-joined=2.078
+asn=631136	id=-1  	Main	mac_rx_collision=61,mac_rx = 1801,collision rate =3.387007218212104 
+asn=631136	id=-1  	Main	duty_cycle_joined_average=3.573333333333333 
+asn=631136	id=-1  	Main	duty_cycle_rx_bc=0.00036381484068307953, duty_cycle_tx_bc=0.00036381484068307953,duty_cycle_rx_uc=0.008802111736966165,duty_cycle_tx_uc=0.0048346299733855016,duty_cycle_rx_idle=3.555367660204109
+asn=631136	id=-1  	Main	simulation completed, results saved at /home/lkw/tsch-sim-history/tsch-sim/examples/mesh/results/single_model_diff_packet_period/7200s-5704-36-0

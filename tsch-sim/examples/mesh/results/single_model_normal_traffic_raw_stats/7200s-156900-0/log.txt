@@ -1,0 +1,267 @@
+asn=0    	id=-1  	Main	copying configuration file /home/lkw/tsch-sim-history/tsch-sim/examples/mesh/config.json to output directory /home/lkw/tsch-sim-history/tsch-sim/examples/mesh/results/single_model_peak_traffic_raw_stats/7200s-156900-0/config.json
+asn=0    	id=-1  	Main	initializing 7200 seconds long simulation...
+asn=0    	id=-1  	network	network stats has been reset
+asn=0    	id=-1  	Main	time.timeline.slot_timings 0.1569,0.1569,0.1569,0.1569,0.1569,0.1569,0.1569,0.1569,0.1569,0.1569,0.1569,0.1569,0.1569,0.1569,0.1569,0.1569,0.1569
+asn=0    	id=-1  	Main	creating 8 "node" nodes...
+asn=0    	id=-1  	Main	generating a mesh network with 8 nodes and 5 degrees
+asn=0    	id=1   	Main	Set position x=39.61 y=-16.97
+asn=0    	id=2   	Main	Set position x=19.40 y=39.73
+asn=0    	id=3   	Main	Set position x=-73.64 y=57.85
+asn=0    	id=4   	Main	Set position x=-65.07 y=-93.46
+asn=0    	id=5   	Main	Set position x=-27.27 y=56.66
+asn=0    	id=6   	Main	Set position x=13.60 y=18.65
+asn=0    	id=7   	Main	Set position x=-12.15 y=-1.21
+asn=0    	id=8   	Main	Set position x=31.13 y=-28.60
+asn=0    	id=-1  	Main	starting simulation main loop...
+asn=0    	id=-1  	Main	add network to timeslot switcher
+asn=0    	id=-1  	Main	network = [object Object]
+asn=383  	id=-1  	Main	60 seconds, progress 0.83%
+asn=383  	id=-1  	Main	periodic route processing for all nodes
+asn=765  	id=-1  	Main	120 seconds, progress 1.67%
+asn=765  	id=-1  	Main	periodic route processing for all nodes
+asn=1148 	id=-1  	Main	180 seconds, progress 2.50%
+asn=1148 	id=-1  	Main	periodic route processing for all nodes
+asn=1530 	id=-1  	Main	240 seconds, progress 3.33%
+asn=1530 	id=-1  	Main	periodic route processing for all nodes
+asn=1913 	id=-1  	Main	300 seconds, progress 4.17%
+asn=1913 	id=-1  	Main	periodic route processing for all nodes
+asn=2353 	id=-1  	Main	369 seconds, progress 5.13%
+asn=2353 	id=-1  	Main	periodic route processing for all nodes
+asn=2677 	id=-1  	Main	420 seconds, progress 5.83%
+asn=2677 	id=-1  	Main	periodic route processing for all nodes
+asn=3060 	id=-1  	Main	480 seconds, progress 6.67%
+asn=3060 	id=-1  	Main	periodic route processing for all nodes
+asn=3442 	id=-1  	Main	540 seconds, progress 7.50%
+asn=3442 	id=-1  	Main	periodic route processing for all nodes
+asn=3825 	id=-1  	Main	600 seconds, progress 8.34%
+asn=3825 	id=-1  	Main	periodic route processing for all nodes
+asn=4207 	id=-1  	Main	660 seconds, progress 9.17%
+asn=4207 	id=-1  	Main	periodic route processing for all nodes
+asn=4589 	id=-1  	Main	720 seconds, progress 10.00%
+asn=4589 	id=-1  	Main	periodic route processing for all nodes
+asn=4972 	id=-1  	Main	780 seconds, progress 10.83%
+asn=4972 	id=-1  	Main	periodic route processing for all nodes
+asn=5354 	id=-1  	Main	840 seconds, progress 11.67%
+asn=5354 	id=-1  	Main	periodic route processing for all nodes
+asn=5737 	id=-1  	Main	900 seconds, progress 12.50%
+asn=5737 	id=-1  	Main	periodic route processing for all nodes
+asn=5737 	id=-1  	Main	periodic neighbor processing for all nodes
+asn=6119 	id=-1  	Main	960 seconds, progress 13.33%
+asn=6119 	id=-1  	Main	periodic route processing for all nodes
+asn=6501 	id=-1  	Main	1020 seconds, progress 14.17%
+asn=6501 	id=-1  	Main	periodic route processing for all nodes
+asn=6884 	id=-1  	Main	1080 seconds, progress 15.00%
+asn=6884 	id=-1  	Main	periodic route processing for all nodes
+asn=7266 	id=-1  	Main	1140 seconds, progress 15.83%
+asn=7266 	id=-1  	Main	periodic route processing for all nodes
+asn=7649 	id=-1  	Main	1200 seconds, progress 16.67%
+asn=7649 	id=-1  	Main	periodic route processing for all nodes
+asn=8031 	id=-1  	Main	1260 seconds, progress 17.50%
+asn=8031 	id=-1  	Main	periodic route processing for all nodes
+asn=8414 	id=-1  	Main	1320 seconds, progress 18.34%
+asn=8414 	id=-1  	Main	periodic route processing for all nodes
+asn=8796 	id=-1  	Main	1380 seconds, progress 19.17%
+asn=8796 	id=-1  	Main	periodic route processing for all nodes
+asn=9178 	id=-1  	Main	1440 seconds, progress 20.00%
+asn=9178 	id=-1  	Main	periodic route processing for all nodes
+asn=9561 	id=-1  	Main	1500 seconds, progress 20.84%
+asn=9561 	id=-1  	Main	periodic route processing for all nodes
+asn=9943 	id=-1  	Main	1560 seconds, progress 21.67%
+asn=9943 	id=-1  	Main	periodic route processing for all nodes
+asn=10326	id=-1  	Main	1620 seconds, progress 22.50%
+asn=10326	id=-1  	Main	periodic route processing for all nodes
+asn=10708	id=-1  	Main	1680 seconds, progress 23.33%
+asn=10708	id=-1  	Main	periodic route processing for all nodes
+asn=11090	id=-1  	Main	1740 seconds, progress 24.17%
+asn=11090	id=-1  	Main	periodic route processing for all nodes
+asn=11473	id=-1  	Main	1800 seconds, progress 25.00%
+asn=11473	id=-1  	Main	periodic route processing for all nodes
+asn=11473	id=-1  	Main	periodic neighbor processing for all nodes
+asn=11855	id=-1  	Main	1860 seconds, progress 25.83%
+asn=11855	id=-1  	Main	periodic route processing for all nodes
+asn=12238	id=-1  	Main	1920 seconds, progress 26.67%
+asn=12238	id=-1  	Main	periodic route processing for all nodes
+asn=12620	id=-1  	Main	1980 seconds, progress 27.50%
+asn=12620	id=-1  	Main	periodic route processing for all nodes
+asn=13002	id=-1  	Main	2040 seconds, progress 28.33%
+asn=13002	id=-1  	Main	periodic route processing for all nodes
+asn=13385	id=-1  	Main	2100 seconds, progress 29.17%
+asn=13385	id=-1  	Main	periodic route processing for all nodes
+asn=13767	id=-1  	Main	2160 seconds, progress 30.00%
+asn=13767	id=-1  	Main	periodic route processing for all nodes
+asn=14150	id=-1  	Main	2220 seconds, progress 30.84%
+asn=14150	id=-1  	Main	periodic route processing for all nodes
+asn=14532	id=-1  	Main	2280 seconds, progress 31.67%
+asn=14532	id=-1  	Main	periodic route processing for all nodes
+asn=14914	id=-1  	Main	2340 seconds, progress 32.50%
+asn=14914	id=-1  	Main	periodic route processing for all nodes
+asn=15297	id=-1  	Main	2400 seconds, progress 33.33%
+asn=15297	id=-1  	Main	periodic route processing for all nodes
+asn=15679	id=-1  	Main	2460 seconds, progress 34.17%
+asn=15679	id=-1  	Main	periodic route processing for all nodes
+asn=16062	id=-1  	Main	2520 seconds, progress 35.00%
+asn=16062	id=-1  	Main	periodic route processing for all nodes
+asn=16444	id=-1  	Main	2580 seconds, progress 35.83%
+asn=16444	id=-1  	Main	periodic route processing for all nodes
+asn=16827	id=-1  	Main	2640 seconds, progress 36.67%
+asn=16827	id=-1  	Main	periodic route processing for all nodes
+asn=17209	id=-1  	Main	2700 seconds, progress 37.50%
+asn=17209	id=-1  	Main	periodic route processing for all nodes
+asn=17209	id=-1  	Main	periodic neighbor processing for all nodes
+asn=17591	id=-1  	Main	2760 seconds, progress 38.33%
+asn=17591	id=-1  	Main	periodic route processing for all nodes
+asn=17974	id=-1  	Main	2820 seconds, progress 39.17%
+asn=17974	id=-1  	Main	periodic route processing for all nodes
+asn=18356	id=-1  	Main	2880 seconds, progress 40.00%
+asn=18356	id=-1  	Main	periodic route processing for all nodes
+asn=18739	id=-1  	Main	2940 seconds, progress 40.84%
+asn=18739	id=-1  	Main	periodic route processing for all nodes
+asn=19121	id=-1  	Main	3000 seconds, progress 41.67%
+asn=19121	id=-1  	Main	periodic route processing for all nodes
+asn=19503	id=-1  	Main	3060 seconds, progress 42.50%
+asn=19503	id=-1  	Main	periodic route processing for all nodes
+asn=19886	id=-1  	Main	3120 seconds, progress 43.33%
+asn=19886	id=-1  	Main	periodic route processing for all nodes
+asn=20268	id=-1  	Main	3180 seconds, progress 44.17%
+asn=20268	id=-1  	Main	periodic route processing for all nodes
+asn=20651	id=-1  	Main	3240 seconds, progress 45.00%
+asn=20651	id=-1  	Main	periodic route processing for all nodes
+asn=21033	id=-1  	Main	3300 seconds, progress 45.83%
+asn=21033	id=-1  	Main	periodic route processing for all nodes
+asn=21415	id=-1  	Main	3360 seconds, progress 46.67%
+asn=21415	id=-1  	Main	periodic route processing for all nodes
+asn=21798	id=-1  	Main	3420 seconds, progress 47.50%
+asn=21798	id=-1  	Main	periodic route processing for all nodes
+asn=22180	id=-1  	Main	3480 seconds, progress 48.33%
+asn=22180	id=-1  	Main	periodic route processing for all nodes
+asn=22563	id=-1  	Main	3540 seconds, progress 49.17%
+asn=22563	id=-1  	Main	periodic route processing for all nodes
+asn=22945	id=-1  	Main	3600 seconds, progress 50.00%
+asn=22945	id=-1  	Main	periodic route processing for all nodes
+asn=22945	id=-1  	Main	periodic neighbor processing for all nodes
+asn=23327	id=-1  	Main	3660 seconds, progress 50.83%
+asn=23327	id=-1  	Main	periodic route processing for all nodes
+asn=23710	id=-1  	Main	3720 seconds, progress 51.67%
+asn=23710	id=-1  	Main	periodic route processing for all nodes
+asn=24092	id=-1  	Main	3780 seconds, progress 52.50%
+asn=24092	id=-1  	Main	periodic route processing for all nodes
+asn=24475	id=-1  	Main	3840 seconds, progress 53.34%
+asn=24475	id=-1  	Main	periodic route processing for all nodes
+asn=24857	id=-1  	Main	3900 seconds, progress 54.17%
+asn=24857	id=-1  	Main	periodic route processing for all nodes
+asn=25240	id=-1  	Main	3960 seconds, progress 55.00%
+asn=25240	id=-1  	Main	periodic route processing for all nodes
+asn=25622	id=-1  	Main	4020 seconds, progress 55.83%
+asn=25622	id=-1  	Main	periodic route processing for all nodes
+asn=26004	id=-1  	Main	4080 seconds, progress 56.67%
+asn=26004	id=-1  	Main	periodic route processing for all nodes
+asn=26387	id=-1  	Main	4140 seconds, progress 57.50%
+asn=26387	id=-1  	Main	periodic route processing for all nodes
+asn=26769	id=-1  	Main	4200 seconds, progress 58.33%
+asn=26769	id=-1  	Main	periodic route processing for all nodes
+asn=27152	id=-1  	Main	4260 seconds, progress 59.17%
+asn=27152	id=-1  	Main	periodic route processing for all nodes
+asn=27534	id=-1  	Main	4320 seconds, progress 60.00%
+asn=27534	id=-1  	Main	periodic route processing for all nodes
+asn=27916	id=-1  	Main	4380 seconds, progress 60.83%
+asn=27916	id=-1  	Main	periodic route processing for all nodes
+asn=28299	id=-1  	Main	4440 seconds, progress 61.67%
+asn=28299	id=-1  	Main	periodic route processing for all nodes
+asn=28681	id=-1  	Main	4500 seconds, progress 62.50%
+asn=28681	id=-1  	Main	periodic route processing for all nodes
+asn=28681	id=-1  	Main	periodic neighbor processing for all nodes
+asn=29064	id=-1  	Main	4560 seconds, progress 63.34%
+asn=29064	id=-1  	Main	periodic route processing for all nodes
+asn=29446	id=-1  	Main	4620 seconds, progress 64.17%
+asn=29446	id=-1  	Main	periodic route processing for all nodes
+asn=29828	id=-1  	Main	4680 seconds, progress 65.00%
+asn=29828	id=-1  	Main	periodic route processing for all nodes
+asn=30211	id=-1  	Main	4740 seconds, progress 65.83%
+asn=30211	id=-1  	Main	periodic route processing for all nodes
+asn=30593	id=-1  	Main	4800 seconds, progress 66.67%
+asn=30593	id=-1  	Main	periodic route processing for all nodes
+asn=30976	id=-1  	Main	4860 seconds, progress 67.50%
+asn=30976	id=-1  	Main	periodic route processing for all nodes
+asn=31358	id=-1  	Main	4920 seconds, progress 68.33%
+asn=31358	id=-1  	Main	periodic route processing for all nodes
+asn=31740	id=-1  	Main	4980 seconds, progress 69.17%
+asn=31740	id=-1  	Main	periodic route processing for all nodes
+asn=32123	id=-1  	Main	5040 seconds, progress 70.00%
+asn=32123	id=-1  	Main	periodic route processing for all nodes
+asn=32505	id=-1  	Main	5100 seconds, progress 70.83%
+asn=32505	id=-1  	Main	periodic route processing for all nodes
+asn=32888	id=-1  	Main	5160 seconds, progress 71.67%
+asn=32888	id=-1  	Main	periodic route processing for all nodes
+asn=33270	id=-1  	Main	5220 seconds, progress 72.50%
+asn=33270	id=-1  	Main	periodic route processing for all nodes
+asn=33653	id=-1  	Main	5280 seconds, progress 73.34%
+asn=33653	id=-1  	Main	periodic route processing for all nodes
+asn=34035	id=-1  	Main	5340 seconds, progress 74.17%
+asn=34035	id=-1  	Main	periodic route processing for all nodes
+asn=34417	id=-1  	Main	5400 seconds, progress 75.00%
+asn=34417	id=-1  	Main	periodic route processing for all nodes
+asn=34417	id=-1  	Main	periodic neighbor processing for all nodes
+asn=34800	id=-1  	Main	5460 seconds, progress 75.83%
+asn=34800	id=-1  	Main	periodic route processing for all nodes
+asn=35182	id=-1  	Main	5520 seconds, progress 76.67%
+asn=35182	id=-1  	Main	periodic route processing for all nodes
+asn=35565	id=-1  	Main	5580 seconds, progress 77.50%
+asn=35565	id=-1  	Main	periodic route processing for all nodes
+asn=35947	id=-1  	Main	5640 seconds, progress 78.33%
+asn=35947	id=-1  	Main	periodic route processing for all nodes
+asn=36329	id=-1  	Main	5700 seconds, progress 79.17%
+asn=36329	id=-1  	Main	periodic route processing for all nodes
+asn=36712	id=-1  	Main	5760 seconds, progress 80.00%
+asn=36712	id=-1  	Main	periodic route processing for all nodes
+asn=37094	id=-1  	Main	5820 seconds, progress 80.83%
+asn=37094	id=-1  	Main	periodic route processing for all nodes
+asn=37477	id=-1  	Main	5880 seconds, progress 81.67%
+asn=37477	id=-1  	Main	periodic route processing for all nodes
+asn=37859	id=-1  	Main	5940 seconds, progress 82.50%
+asn=37859	id=-1  	Main	periodic route processing for all nodes
+asn=38241	id=-1  	Main	6000 seconds, progress 83.33%
+asn=38241	id=-1  	Main	periodic route processing for all nodes
+asn=38624	id=-1  	Main	6060 seconds, progress 84.17%
+asn=38624	id=-1  	Main	periodic route processing for all nodes
+asn=39006	id=-1  	Main	6120 seconds, progress 85.00%
+asn=39006	id=-1  	Main	periodic route processing for all nodes
+asn=39389	id=-1  	Main	6180 seconds, progress 85.84%
+asn=39389	id=-1  	Main	periodic route processing for all nodes
+asn=39771	id=-1  	Main	6240 seconds, progress 86.67%
+asn=39771	id=-1  	Main	periodic route processing for all nodes
+asn=40153	id=-1  	Main	6300 seconds, progress 87.50%
+asn=40153	id=-1  	Main	periodic route processing for all nodes
+asn=40153	id=-1  	Main	periodic neighbor processing for all nodes
+asn=40536	id=-1  	Main	6360 seconds, progress 88.33%
+asn=40536	id=-1  	Main	periodic route processing for all nodes
+asn=40918	id=-1  	Main	6420 seconds, progress 89.17%
+asn=40918	id=-1  	Main	periodic route processing for all nodes
+asn=41301	id=-1  	Main	6480 seconds, progress 90.00%
+asn=41301	id=-1  	Main	periodic route processing for all nodes
+asn=41683	id=-1  	Main	6540 seconds, progress 90.83%
+asn=41683	id=-1  	Main	periodic route processing for all nodes
+asn=42066	id=-1  	Main	6600 seconds, progress 91.67%
+asn=42066	id=-1  	Main	periodic route processing for all nodes
+asn=42448	id=-1  	Main	6660 seconds, progress 92.50%
+asn=42448	id=-1  	Main	periodic route processing for all nodes
+asn=42830	id=-1  	Main	6720 seconds, progress 93.33%
+asn=42830	id=-1  	Main	periodic route processing for all nodes
+asn=43213	id=-1  	Main	6780 seconds, progress 94.17%
+asn=43213	id=-1  	Main	periodic route processing for all nodes
+asn=43595	id=-1  	Main	6840 seconds, progress 95.00%
+asn=43595	id=-1  	Main	periodic route processing for all nodes
+asn=43978	id=-1  	Main	6900 seconds, progress 95.84%
+asn=43978	id=-1  	Main	periodic route processing for all nodes
+asn=44360	id=-1  	Main	6960 seconds, progress 96.67%
+asn=44360	id=-1  	Main	periodic route processing for all nodes
+asn=44742	id=-1  	Main	7020 seconds, progress 97.50%
+asn=44742	id=-1  	Main	periodic route processing for all nodes
+asn=45125	id=-1  	Main	7080 seconds, progress 98.33%
+asn=45125	id=-1  	Main	periodic route processing for all nodes
+asn=45507	id=-1  	Main	7140 seconds, progress 99.17%
+asn=45507	id=-1  	Main	periodic route processing for all nodes
+asn=45889	id=-1  	Main	ending simulation at 7199.984 seconds
+asn=45889	id=-1  	Main	packet stats: PDR=88.446% generated=2096 received=1799 lost=235 (tx_limit/queue/routing/scheduling/other=29/32/174/0/0)
+asn=45889	id=-1  	Main	link stats: PAR=78.423% tx=6822 acked=5350
+asn=45889	id=-1  	Main	current-consumed=0.062 current-consumed-when-joined=0.062
+asn=45889	id=-1  	Main	simulation completed, results saved at /home/lkw/tsch-sim-history/tsch-sim/examples/mesh/results/single_model_peak_traffic_raw_stats/7200s-156900-0

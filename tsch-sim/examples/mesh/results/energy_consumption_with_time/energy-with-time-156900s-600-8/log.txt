@@ -1,0 +1,2759 @@
+asn=0    	id=-1  	Main	copying configuration file /home/lkw/tsch-sim-history/tsch-sim/examples/mesh/config.json to output directory /home/lkw/tsch-sim-history/tsch-sim/examples/mesh/results/energy_consumption_with_time/energy-with-time-156900s-600-8/config.json
+asn=0    	id=-1  	Main	initializing 600 seconds long simulation...
+asn=0    	id=-1  	network	network stats has been reset
+asn=0    	id=-1  	TSCH	Orchestra: initializing Orchestra infrastructure
+asn=0    	id=-1  	Scheduler	time.timeline.slot_timings 0.1569,0.1569,0.1569,0.1569,0.1569,0.1569,0.1569,0.1569,0.1569,0.1569,0.1569,0.1569,0.1569,0.1569,0.1569,0.1569,0.1569
+asn=0    	id=-1  	Main	creating 8 "node" nodes...
+asn=0    	id=1   	node	node stats has been reset
+asn=0    	id=2   	node	node stats has been reset
+asn=0    	id=3   	node	node stats has been reset
+asn=0    	id=4   	node	node stats has been reset
+asn=0    	id=5   	node	node stats has been reset
+asn=0    	id=6   	node	node stats has been reset
+asn=0    	id=7   	node	node stats has been reset
+asn=0    	id=8   	node	node stats has been reset
+asn=0    	id=-1  	Main	generating a mesh network with 8 nodes and 5 degrees
+asn=0    	id=1   	Main	Set position x=93.63 y=-44.83
+asn=0    	id=2   	Main	Set position x=47.46 y=8.42
+asn=0    	id=3   	Main	Set position x=8.47 y=17.17
+asn=0    	id=4   	Main	Set position x=105.56 y=52.96
+asn=0    	id=5   	Main	Set position x=12.61 y=-93.07
+asn=0    	id=6   	Main	Set position x=-19.90 y=-13.86
+asn=0    	id=7   	Main	Set position x=2.07 y=-52.43
+asn=0    	id=8   	Main	Set position x=122.14 y=9.46
+asn=0    	id=-1  	App	new packet source, from=2 for=1 period=3 warmup=100
+asn=0    	id=-1  	App	new packet source, from=3 for=1 period=3 warmup=100
+asn=0    	id=-1  	App	new packet source, from=4 for=1 period=3 warmup=100
+asn=0    	id=-1  	App	new packet source, from=5 for=1 period=3 warmup=100
+asn=0    	id=-1  	App	new packet source, from=6 for=1 period=3 warmup=100
+asn=0    	id=-1  	App	new packet source, from=7 for=1 period=3 warmup=100
+asn=0    	id=-1  	App	new packet source, from=8 for=1 period=3 warmup=100
+asn=0    	id=-1  	Main	starting simulation main loop...
+asn=0    	id=-1  	Main	add network to timeslot switcher
+asn=0    	id=-1  	Main	network = [object Object]
+asn=0    	id=1   	TSCH	Orchestra: *** initializing
+asn=0    	id=1   	TSCH	Orchestra: initializing rule EB per time source (handle=0 slotframe_size=397)
+asn=0    	id=1   	TSCH	Orchestra: initializing rule unicast per neighbor storing (handle=1 slotframe_size=17)
+asn=0    	id=1   	TSCH	Orchestra: storing rule, receiver based
+asn=0    	id=1   	TSCH	Orchestra: initializing rule default common (handle=2 slotframe_size=31)
+asn=0    	id=1   	TSCH	Orchestra: initialization done
+asn=0    	id=1   	Node	becomes TSCH coordinator
+asn=0    	id=2   	TSCH	Orchestra: *** initializing
+asn=0    	id=2   	TSCH	Orchestra: initializing rule EB per time source (handle=0 slotframe_size=397)
+asn=0    	id=2   	TSCH	Orchestra: initializing rule unicast per neighbor storing (handle=1 slotframe_size=17)
+asn=0    	id=2   	TSCH	Orchestra: storing rule, receiver based
+asn=0    	id=2   	TSCH	Orchestra: initializing rule default common (handle=2 slotframe_size=31)
+asn=0    	id=2   	TSCH	Orchestra: initialization done
+asn=0    	id=2   	Node	scanning on channel=15...
+asn=0    	id=3   	TSCH	Orchestra: *** initializing
+asn=0    	id=3   	TSCH	Orchestra: initializing rule EB per time source (handle=0 slotframe_size=397)
+asn=0    	id=3   	TSCH	Orchestra: initializing rule unicast per neighbor storing (handle=1 slotframe_size=17)
+asn=0    	id=3   	TSCH	Orchestra: storing rule, receiver based
+asn=0    	id=3   	TSCH	Orchestra: initializing rule default common (handle=2 slotframe_size=31)
+asn=0    	id=3   	TSCH	Orchestra: initialization done
+asn=0    	id=3   	Node	scanning on channel=25...
+asn=0    	id=4   	TSCH	Orchestra: *** initializing
+asn=0    	id=4   	TSCH	Orchestra: initializing rule EB per time source (handle=0 slotframe_size=397)
+asn=0    	id=4   	TSCH	Orchestra: initializing rule unicast per neighbor storing (handle=1 slotframe_size=17)
+asn=0    	id=4   	TSCH	Orchestra: storing rule, receiver based
+asn=0    	id=4   	TSCH	Orchestra: initializing rule default common (handle=2 slotframe_size=31)
+asn=0    	id=4   	TSCH	Orchestra: initialization done
+asn=0    	id=4   	Node	scanning on channel=26...
+asn=0    	id=5   	TSCH	Orchestra: *** initializing
+asn=0    	id=5   	TSCH	Orchestra: initializing rule EB per time source (handle=0 slotframe_size=397)
+asn=0    	id=5   	TSCH	Orchestra: initializing rule unicast per neighbor storing (handle=1 slotframe_size=17)
+asn=0    	id=5   	TSCH	Orchestra: storing rule, receiver based
+asn=0    	id=5   	TSCH	Orchestra: initializing rule default common (handle=2 slotframe_size=31)
+asn=0    	id=5   	TSCH	Orchestra: initialization done
+asn=0    	id=5   	Node	scanning on channel=20...
+asn=0    	id=6   	TSCH	Orchestra: *** initializing
+asn=0    	id=6   	TSCH	Orchestra: initializing rule EB per time source (handle=0 slotframe_size=397)
+asn=0    	id=6   	TSCH	Orchestra: initializing rule unicast per neighbor storing (handle=1 slotframe_size=17)
+asn=0    	id=6   	TSCH	Orchestra: storing rule, receiver based
+asn=0    	id=6   	TSCH	Orchestra: initializing rule default common (handle=2 slotframe_size=31)
+asn=0    	id=6   	TSCH	Orchestra: initialization done
+asn=0    	id=6   	Node	scanning on channel=15...
+asn=0    	id=7   	TSCH	Orchestra: *** initializing
+asn=0    	id=7   	TSCH	Orchestra: initializing rule EB per time source (handle=0 slotframe_size=397)
+asn=0    	id=7   	TSCH	Orchestra: initializing rule unicast per neighbor storing (handle=1 slotframe_size=17)
+asn=0    	id=7   	TSCH	Orchestra: storing rule, receiver based
+asn=0    	id=7   	TSCH	Orchestra: initializing rule default common (handle=2 slotframe_size=31)
+asn=0    	id=7   	TSCH	Orchestra: initialization done
+asn=0    	id=7   	Node	scanning on channel=20...
+asn=0    	id=8   	TSCH	Orchestra: *** initializing
+asn=0    	id=8   	TSCH	Orchestra: initializing rule EB per time source (handle=0 slotframe_size=397)
+asn=0    	id=8   	TSCH	Orchestra: initializing rule unicast per neighbor storing (handle=1 slotframe_size=17)
+asn=0    	id=8   	TSCH	Orchestra: storing rule, receiver based
+asn=0    	id=8   	TSCH	Orchestra: initializing rule default common (handle=2 slotframe_size=31)
+asn=0    	id=8   	TSCH	Orchestra: initialization done
+asn=0    	id=8   	Node	scanning on channel=26...
+asn=1    	id=3   	Node	add neighbor id=1
+asn=1    	id=3   	TSCH	joined/associated at 0.157 on receiving an EB packet from 1
+asn=1    	id=3   	TSCH	Orchestra: new time source 1
+asn=1    	id=3   	TSCH	Orchestra: storing mode: add uc cell to 1, timeslot=1
+asn=1    	id=3   	RPL	DIS output to -1
+asn=7    	id=4   	Node	scanning on channel=25...
+asn=7    	id=5   	Node	scanning on channel=25...
+asn=7    	id=7   	Node	scanning on channel=15...
+asn=7    	id=8   	Node	scanning on channel=25...
+asn=14   	id=7   	Node	scanning on channel=20...
+asn=14   	id=8   	Node	scanning on channel=26...
+asn=14   	id=4   	Node	scanning on channel=15...
+asn=14   	id=6   	Node	scanning on channel=26...
+asn=14   	id=5   	Node	scanning on channel=26...
+asn=21   	id=5   	Node	scanning on channel=25...
+asn=21   	id=7   	Node	scanning on channel=25...
+asn=21   	id=4   	Node	scanning on channel=25...
+asn=21   	id=8   	Node	scanning on channel=15...
+asn=26   	id=1   	RPL	DIO output to -1
+asn=28   	id=8   	Node	scanning on channel=26...
+asn=28   	id=4   	Node	scanning on channel=20...
+asn=28   	id=5   	Node	scanning on channel=26...
+asn=28   	id=6   	Node	scanning on channel=20...
+asn=28   	id=7   	Node	scanning on channel=26...
+asn=28   	id=2   	Node	scanning on channel=25...
+asn=35   	id=7   	Node	scanning on channel=15...
+asn=35   	id=8   	Node	scanning on channel=25...
+asn=35   	id=6   	Node	scanning on channel=26...
+asn=35   	id=5   	Node	scanning on channel=20...
+asn=35   	id=4   	Node	scanning on channel=25...
+asn=42   	id=5   	Node	scanning on channel=26...
+asn=42   	id=4   	Node	scanning on channel=15...
+asn=42   	id=7   	Node	scanning on channel=26...
+asn=42   	id=6   	Node	scanning on channel=25...
+asn=42   	id=8   	Node	scanning on channel=26...
+asn=49   	id=8   	Node	scanning on channel=25...
+asn=49   	id=2   	Node	scanning on channel=15...
+asn=49   	id=5   	Node	scanning on channel=15...
+asn=49   	id=7   	Node	scanning on channel=15...
+asn=56   	id=4   	Node	scanning on channel=25...
+asn=56   	id=5   	Node	scanning on channel=25...
+asn=56   	id=2   	Node	scanning on channel=25...
+asn=63   	id=5   	Node	scanning on channel=20...
+asn=63   	id=2   	Node	scanning on channel=20...
+asn=63   	id=4   	Node	scanning on channel=26...
+asn=63   	id=8   	Node	scanning on channel=26...
+asn=63   	id=7   	Node	scanning on channel=25...
+asn=70   	id=8   	Node	scanning on channel=25...
+asn=70   	id=5   	Node	scanning on channel=25...
+asn=70   	id=6   	Node	scanning on channel=26...
+asn=70   	id=4   	Node	scanning on channel=25...
+asn=70   	id=2   	Node	scanning on channel=25...
+asn=77   	id=4   	Node	scanning on channel=26...
+asn=77   	id=2   	Node	scanning on channel=15...
+asn=77   	id=8   	Node	scanning on channel=26...
+asn=77   	id=6   	Node	scanning on channel=20...
+asn=77   	id=5   	Node	scanning on channel=15...
+asn=77   	id=7   	Node	scanning on channel=20...
+asn=80   	id=1   	RPL	DIO output to -1
+asn=84   	id=7   	Node	scanning on channel=26...
+asn=84   	id=4   	Node	scanning on channel=20...
+asn=84   	id=6   	Node	scanning on channel=15...
+asn=84   	id=2   	Node	scanning on channel=26...
+asn=91   	id=8   	Node	scanning on channel=25...
+asn=91   	id=2   	Node	scanning on channel=25...
+asn=91   	id=7   	Node	scanning on channel=15...
+asn=91   	id=6   	Node	scanning on channel=26...
+asn=91   	id=5   	Node	scanning on channel=26...
+asn=93   	id=3   	RPL	DIO input from 1
+asn=93   	id=3   	RPL	DIO output to 1
+asn=98   	id=8   	Node	scanning on channel=26...
+asn=98   	id=6   	Node	scanning on channel=25...
+asn=98   	id=2   	Node	scanning on channel=15...
+asn=99   	id=8   	RPL	DIS output to -1
+asn=103  	id=1   	Node	add neighbor id=3
+asn=103  	id=1   	RPL	DIO input from 3
+asn=103  	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=103  	id=3   	RPL	DIO output to 1
+asn=104  	id=4   	RPL	DIS output to -1
+asn=105  	id=2   	Node	scanning on channel=20...
+asn=105  	id=7   	Node	scanning on channel=26...
+asn=105  	id=6   	Node	scanning on channel=26...
+asn=105  	id=4   	Node	scanning on channel=25...
+asn=105  	id=5   	Node	scanning on channel=15...
+asn=112  	id=5   	Node	scanning on channel=20...
+asn=112  	id=4   	Node	scanning on channel=26...
+asn=112  	id=8   	Node	scanning on channel=20...
+asn=112  	id=6   	Node	scanning on channel=25...
+asn=112  	id=2   	Node	scanning on channel=26...
+asn=112  	id=7   	Node	scanning on channel=25...
+asn=119  	id=7   	Node	scanning on channel=26...
+asn=119  	id=8   	Node	scanning on channel=26...
+asn=119  	id=4   	Node	scanning on channel=25...
+asn=120  	id=1   	RPL	DIO input from 3
+asn=120  	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=120  	id=3   	RPL	DIO output to 1
+asn=126  	id=5   	Node	scanning on channel=26...
+asn=126  	id=8   	Node	scanning on channel=20...
+asn=126  	id=2   	Node	scanning on channel=20...
+asn=126  	id=7   	Node	scanning on channel=25...
+asn=129  	id=3   	RPL	DIS output to -1
+asn=133  	id=7   	Node	scanning on channel=15...
+asn=133  	id=2   	Node	scanning on channel=26...
+asn=133  	id=8   	Node	scanning on channel=25...
+asn=137  	id=1   	RPL	DIO input from 3
+asn=137  	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=137  	id=3   	RPL	DIO output to 1
+asn=140  	id=5   	Node	scanning on channel=25...
+asn=140  	id=8   	Node	scanning on channel=26...
+asn=140  	id=2   	Node	scanning on channel=25...
+asn=140  	id=7   	Node	scanning on channel=26...
+asn=147  	id=2   	Node	scanning on channel=20...
+asn=147  	id=7   	Node	scanning on channel=20...
+asn=147  	id=6   	Node	scanning on channel=20...
+asn=147  	id=5   	Node	scanning on channel=15...
+asn=151  	id=6   	RPL	DIS output to -1
+asn=154  	id=5   	Node	scanning on channel=20...
+asn=154  	id=6   	Node	scanning on channel=25...
+asn=154  	id=7   	Node	scanning on channel=15...
+asn=154  	id=2   	Node	scanning on channel=26...
+asn=154  	id=1   	RPL	DIO input from 3
+asn=154  	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=154  	id=3   	RPL	parent switch: null -> 1
+asn=154  	id=3   	Node	add the default route via 1
+asn=155  	id=1   	RPL	received a DIS from 3
+asn=161  	id=7   	Node	scanning on channel=20...
+asn=161  	id=6   	Node	scanning on channel=15...
+asn=161  	id=8   	Node	scanning on channel=20...
+asn=161  	id=5   	Node	scanning on channel=25...
+asn=165  	id=7   	RPL	DIS output to -1
+asn=168  	id=7   	Node	scanning on channel=26...
+asn=168  	id=6   	Node	scanning on channel=25...
+asn=174  	id=2   	RPL	DIS output to -1
+asn=175  	id=8   	Node	scanning on channel=25...
+asn=175  	id=6   	Node	scanning on channel=15...
+asn=175  	id=5   	Node	scanning on channel=15...
+asn=175  	id=1   	RPL	DIO output to -1
+asn=182  	id=7   	Node	scanning on channel=25...
+asn=182  	id=8   	Node	scanning on channel=26...
+asn=182  	id=6   	Node	scanning on channel=25...
+asn=186  	id=3   	RPL	DIO input from 1
+asn=188  	id=5   	RPL	DIS output to -1
+asn=188  	id=4   	Node	scanning on channel=15...
+asn=188  	id=3   	RPL	DAO output
+asn=188  	id=1   	RPL	DAO input from 3
+asn=188  	id=1   	Node	add route to 3 via 3
+asn=188  	id=1   	TSCH	Orchestra: child added 3
+asn=188  	id=1   	TSCH	Orchestra: storing mode: add uc cell to 3, timeslot=3
+asn=188  	id=1   	RPL	DAO ACK output 241 0
+asn=188  	id=3   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=188  	id=3   	TSCH	Orchestra: parent acked a DAO
+asn=189  	id=5   	Node	scanning on channel=20...
+asn=189  	id=7   	Node	scanning on channel=15...
+asn=189  	id=8   	Node	scanning on channel=15...
+asn=189  	id=6   	Node	scanning on channel=26...
+asn=190  	id=3   	RPL	got DAO ACK seqno 241 (our 241), status 0
+asn=190  	id=1   	Node	tx done to=3 numtx=1 acked=true, remove packet
+asn=195  	id=4   	Node	scanning on channel=25...
+asn=195  	id=8   	RPL	DIS output to -1
+asn=196  	id=7   	Node	scanning on channel=20...
+asn=196  	id=8   	Node	scanning on channel=26...
+asn=196  	id=6   	Node	scanning on channel=20...
+asn=202  	id=4   	Node	scanning on channel=26...
+asn=203  	id=6   	Node	scanning on channel=26...
+asn=203  	id=5   	Node	scanning on channel=15...
+asn=203  	id=7   	Node	scanning on channel=15...
+asn=203  	id=8   	Node	scanning on channel=25...
+asn=209  	id=4   	Node	scanning on channel=25...
+asn=210  	id=8   	Node	scanning on channel=26...
+asn=210  	id=7   	Node	scanning on channel=26...
+asn=210  	id=5   	Node	scanning on channel=25...
+asn=210  	id=6   	Node	scanning on channel=20...
+asn=216  	id=4   	Node	scanning on channel=15...
+asn=216  	id=3   	RPL	DIO output to -1
+asn=217  	id=5   	Node	scanning on channel=26...
+asn=217  	id=7   	Node	scanning on channel=20...
+asn=217  	id=1   	RPL	DIO input from 3
+asn=223  	id=4   	Node	scanning on channel=25...
+asn=224  	id=8   	Node	scanning on channel=15...
+asn=224  	id=7   	Node	scanning on channel=26...
+asn=224  	id=5   	Node	scanning on channel=15...
+asn=224  	id=6   	Node	scanning on channel=25...
+asn=230  	id=4   	Node	scanning on channel=20...
+asn=231  	id=6   	Node	scanning on channel=20...
+asn=231  	id=5   	Node	scanning on channel=20...
+asn=231  	id=7   	Node	scanning on channel=15...
+asn=231  	id=8   	Node	scanning on channel=20...
+asn=237  	id=4   	Node	scanning on channel=15...
+asn=238  	id=8   	Node	scanning on channel=26...
+asn=238  	id=7   	Node	scanning on channel=25...
+asn=238  	id=6   	Node	scanning on channel=26...
+asn=238  	id=1   	RPL	DIO output to -1
+asn=244  	id=4   	Node	scanning on channel=20...
+asn=245  	id=5   	Node	scanning on channel=26...
+asn=245  	id=8   	Node	scanning on channel=25...
+asn=245  	id=7   	Node	scanning on channel=20...
+asn=248  	id=3   	RPL	DIO input from 1
+asn=252  	id=7   	Node	scanning on channel=26...
+asn=252  	id=6   	Node	scanning on channel=15...
+asn=252  	id=5   	Node	scanning on channel=25...
+asn=259  	id=5   	Node	scanning on channel=20...
+asn=259  	id=6   	Node	scanning on channel=26...
+asn=259  	id=7   	Node	scanning on channel=25...
+asn=259  	id=8   	Node	scanning on channel=20...
+asn=264  	id=4   	RPL	DIS output to -1
+asn=266  	id=8   	Node	scanning on channel=26...
+asn=266  	id=6   	Node	scanning on channel=25...
+asn=266  	id=5   	Node	scanning on channel=26...
+asn=272  	id=4   	Node	scanning on channel=15...
+asn=273  	id=5   	Node	scanning on channel=25...
+asn=273  	id=7   	Node	scanning on channel=20...
+asn=279  	id=4   	Node	scanning on channel=20...
+asn=280  	id=8   	Node	scanning on channel=25...
+asn=280  	id=7   	Node	scanning on channel=15...
+asn=280  	id=6   	Node	scanning on channel=26...
+asn=280  	id=5   	Node	scanning on channel=26...
+asn=284  	id=3   	RPL	DIO output to -1
+asn=285  	id=2   	Node	scanning on channel=20...
+asn=286  	id=4   	Node	scanning on channel=15...
+asn=287  	id=6   	Node	scanning on channel=25...
+asn=287  	id=7   	Node	scanning on channel=26...
+asn=292  	id=2   	Node	scanning on channel=15...
+asn=293  	id=4   	Node	scanning on channel=20...
+asn=294  	id=7   	Node	scanning on channel=20...
+asn=294  	id=8   	Node	scanning on channel=15...
+asn=294  	id=6   	Node	scanning on channel=20...
+asn=294  	id=5   	Node	scanning on channel=25...
+asn=296  	id=6   	RPL	DIS output to -1
+asn=299  	id=2   	Node	scanning on channel=26...
+asn=299  	id=8   	RPL	DIS output to -1
+asn=300  	id=4   	Node	scanning on channel=26...
+asn=301  	id=6   	Node	scanning on channel=15...
+asn=301  	id=5   	Node	scanning on channel=20...
+asn=301  	id=8   	Node	scanning on channel=26...
+asn=301  	id=7   	Node	scanning on channel=25...
+asn=306  	id=2   	Node	scanning on channel=25...
+asn=307  	id=4   	Node	scanning on channel=15...
+asn=307  	id=2   	RPL	DIS output to -1
+asn=308  	id=8   	Node	scanning on channel=20...
+asn=308  	id=6   	Node	scanning on channel=25...
+asn=310  	id=1   	RPL	DIO input from 3
+asn=313  	id=2   	Node	scanning on channel=20...
+asn=314  	id=4   	Node	scanning on channel=26...
+asn=315  	id=6   	Node	scanning on channel=26...
+asn=315  	id=8   	Node	scanning on channel=25...
+asn=315  	id=7   	Node	scanning on channel=26...
+asn=320  	id=2   	Node	scanning on channel=15...
+asn=321  	id=4   	Node	scanning on channel=25...
+asn=322  	id=6   	Node	scanning on channel=20...
+asn=327  	id=2   	Node	scanning on channel=20...
+asn=328  	id=4   	Node	scanning on channel=26...
+asn=329  	id=6   	Node	scanning on channel=25...
+asn=329  	id=8   	Node	scanning on channel=20...
+asn=329  	id=5   	Node	scanning on channel=26...
+asn=329  	id=7   	Node	scanning on channel=20...
+asn=333  	id=7   	RPL	DIS output to -1
+asn=334  	id=2   	Node	scanning on channel=25...
+asn=335  	id=4   	Node	scanning on channel=20...
+asn=336  	id=7   	Node	scanning on channel=15...
+asn=336  	id=5   	Node	scanning on channel=25...
+asn=336  	id=6   	Node	scanning on channel=15...
+asn=336  	id=8   	Node	scanning on channel=15...
+asn=341  	id=2   	Node	scanning on channel=15...
+asn=342  	id=4   	Node	scanning on channel=25...
+asn=343  	id=6   	Node	scanning on channel=26...
+asn=343  	id=8   	Node	scanning on channel=25...
+asn=348  	id=2   	Node	scanning on channel=20...
+asn=349  	id=4   	Node	scanning on channel=20...
+asn=350  	id=5   	Node	scanning on channel=26...
+asn=350  	id=6   	Node	scanning on channel=15...
+asn=355  	id=2   	Node	scanning on channel=15...
+asn=355  	id=5   	RPL	DIS output to -1
+asn=356  	id=4   	Node	scanning on channel=15...
+asn=357  	id=6   	Node	scanning on channel=20...
+asn=357  	id=8   	Node	scanning on channel=20...
+asn=357  	id=7   	Node	scanning on channel=20...
+asn=357  	id=5   	Node	scanning on channel=25...
+asn=362  	id=2   	Node	scanning on channel=26...
+asn=363  	id=1   	RPL	DIO output to -1
+asn=364  	id=5   	Node	scanning on channel=15...
+asn=364  	id=7   	Node	scanning on channel=15...
+asn=364  	id=6   	Node	scanning on channel=25...
+asn=371  	id=6   	Node	scanning on channel=15...
+asn=371  	id=8   	Node	scanning on channel=26...
+asn=371  	id=7   	Node	scanning on channel=25...
+asn=371  	id=5   	Node	scanning on channel=25...
+asn=372  	id=3   	RPL	DIO input from 1
+asn=376  	id=2   	Node	scanning on channel=20...
+asn=377  	id=4   	Node	scanning on channel=26...
+asn=378  	id=7   	Node	scanning on channel=20...
+asn=378  	id=5   	Node	scanning on channel=26...
+asn=383  	id=2   	Node	scanning on channel=25...
+asn=383  	id=-1  	Main	60 seconds, progress 10.02%
+asn=383  	id=-1  	Main	periodic route processing for all nodes
+asn=383  	id=1   	TSCH	stats: {"idle_listen":20,"channel_scan":0,"rx_data":3,"rx_data_tx_ack":5,"tx_data":6,"tx_data_rx_ack":1}
+asn=383  	id=2   	TSCH	stats: {"idle_listen":0,"channel_scan":382,"rx_data":0,"rx_data_tx_ack":0,"tx_data":0,"tx_data_rx_ack":0}
+asn=383  	id=3   	TSCH	stats: {"idle_listen":26,"channel_scan":1,"rx_data":4,"rx_data_tx_ack":1,"tx_data":4,"tx_data_rx_ack":5}
+asn=383  	id=4   	TSCH	stats: {"idle_listen":0,"channel_scan":382,"rx_data":0,"rx_data_tx_ack":0,"tx_data":0,"tx_data_rx_ack":0}
+asn=383  	id=5   	TSCH	stats: {"idle_listen":0,"channel_scan":382,"rx_data":0,"rx_data_tx_ack":0,"tx_data":0,"tx_data_rx_ack":0}
+asn=383  	id=6   	TSCH	stats: {"idle_listen":0,"channel_scan":382,"rx_data":0,"rx_data_tx_ack":0,"tx_data":0,"tx_data_rx_ack":0}
+asn=383  	id=7   	TSCH	stats: {"idle_listen":0,"channel_scan":382,"rx_data":0,"rx_data_tx_ack":0,"tx_data":0,"tx_data_rx_ack":0}
+asn=383  	id=8   	TSCH	stats: {"idle_listen":0,"channel_scan":382,"rx_data":0,"rx_data_tx_ack":0,"tx_data":0,"tx_data_rx_ack":0}
+asn=384  	id=4   	Node	scanning on channel=20...
+asn=385  	id=8   	Node	scanning on channel=15...
+asn=385  	id=5   	Node	scanning on channel=20...
+asn=390  	id=2   	Node	scanning on channel=20...
+asn=392  	id=7   	Node	scanning on channel=26...
+asn=392  	id=8   	Node	scanning on channel=26...
+asn=392  	id=6   	Node	scanning on channel=25...
+asn=392  	id=3   	RPL	DIO output to -1
+asn=398  	id=7   	Node	add neighbor id=1
+asn=398  	id=7   	TSCH	joined/associated at 62.446 on receiving an EB packet from 1
+asn=398  	id=7   	TSCH	Orchestra: new time source 1
+asn=398  	id=7   	TSCH	Orchestra: storing mode: add uc cell to 1, timeslot=1
+asn=398  	id=7   	RPL	DIS output to -1
+asn=398  	id=8   	Node	add neighbor id=1
+asn=398  	id=8   	TSCH	joined/associated at 62.446 on receiving an EB packet from 1
+asn=398  	id=8   	TSCH	Orchestra: new time source 1
+asn=398  	id=8   	TSCH	Orchestra: storing mode: add uc cell to 1, timeslot=1
+asn=398  	id=8   	RPL	DIS output to -1
+asn=399  	id=6   	Node	scanning on channel=20...
+asn=399  	id=5   	Node	scanning on channel=15...
+asn=400  	id=5   	Node	add neighbor id=3
+asn=400  	id=5   	TSCH	joined/associated at 62.76 on receiving an EB packet from 3
+asn=400  	id=5   	TSCH	Orchestra: new time source 3
+asn=400  	id=5   	TSCH	Orchestra: storing mode: add uc cell to 3, timeslot=3
+asn=400  	id=5   	RPL	DIS output to -1
+asn=404  	id=2   	Node	scanning on channel=26...
+asn=406  	id=6   	Node	scanning on channel=25...
+asn=411  	id=6   	RPL	DIS output to -1
+asn=412  	id=4   	Node	scanning on channel=26...
+asn=413  	id=6   	Node	scanning on channel=20...
+asn=418  	id=2   	Node	scanning on channel=20...
+asn=420  	id=6   	Node	scanning on channel=15...
+asn=425  	id=2   	Node	scanning on channel=15...
+asn=426  	id=4   	Node	scanning on channel=15...
+asn=433  	id=4   	Node	scanning on channel=25...
+asn=434  	id=6   	Node	scanning on channel=25...
+asn=439  	id=2   	Node	scanning on channel=20...
+asn=441  	id=4   	RPL	DIS output to -1
+asn=443  	id=2   	RPL	DIS output to -1
+asn=448  	id=6   	Node	scanning on channel=20...
+asn=453  	id=2   	Node	scanning on channel=15...
+asn=454  	id=4   	Node	scanning on channel=26...
+asn=455  	id=6   	Node	scanning on channel=25...
+asn=460  	id=2   	Node	scanning on channel=26...
+asn=461  	id=8   	RPL	DIS output to -1
+asn=461  	id=4   	Node	scanning on channel=25...
+asn=461  	id=5   	RPL	DIS output to -1
+asn=462  	id=7   	RPL	DIS output to -1
+asn=462  	id=6   	Node	scanning on channel=20...
+asn=467  	id=2   	Node	scanning on channel=15...
+asn=468  	id=4   	Node	scanning on channel=20...
+asn=469  	id=6   	Node	scanning on channel=15...
+asn=474  	id=2   	Node	scanning on channel=20...
+asn=482  	id=4   	Node	scanning on channel=15...
+asn=483  	id=6   	Node	scanning on channel=26...
+asn=488  	id=2   	Node	scanning on channel=26...
+asn=489  	id=4   	Node	scanning on channel=25...
+asn=490  	id=6   	Node	scanning on channel=15...
+asn=496  	id=4   	Node	scanning on channel=20...
+asn=497  	id=6   	Node	scanning on channel=26...
+asn=502  	id=2   	Node	scanning on channel=15...
+asn=504  	id=6   	Node	scanning on channel=15...
+asn=509  	id=2   	Node	scanning on channel=25...
+asn=510  	id=4   	Node	scanning on channel=26...
+asn=511  	id=6   	Node	scanning on channel=26...
+asn=517  	id=4   	Node	scanning on channel=25...
+asn=523  	id=2   	Node	scanning on channel=20...
+asn=524  	id=4   	Node	scanning on channel=26...
+asn=525  	id=6   	Node	scanning on channel=20...
+asn=531  	id=4   	Node	scanning on channel=25...
+asn=532  	id=6   	Node	scanning on channel=26...
+asn=537  	id=2   	Node	scanning on channel=25...
+asn=539  	id=6   	Node	scanning on channel=25...
+asn=545  	id=4   	Node	scanning on channel=20...
+asn=546  	id=6   	Node	scanning on channel=26...
+asn=552  	id=4   	Node	scanning on channel=25...
+asn=553  	id=6   	Node	scanning on channel=15...
+asn=559  	id=4   	Node	scanning on channel=26...
+asn=560  	id=6   	Node	scanning on channel=20...
+asn=565  	id=2   	Node	scanning on channel=26...
+asn=567  	id=6   	Node	scanning on channel=26...
+asn=572  	id=2   	Node	scanning on channel=15...
+asn=573  	id=4   	Node	scanning on channel=20...
+asn=574  	id=6   	Node	scanning on channel=20...
+asn=579  	id=2   	Node	scanning on channel=20...
+asn=580  	id=4   	Node	scanning on channel=26...
+asn=581  	id=6   	Node	scanning on channel=26...
+asn=583  	id=6   	RPL	DIS output to -1
+asn=586  	id=2   	Node	scanning on channel=15...
+asn=587  	id=4   	Node	scanning on channel=20...
+asn=588  	id=6   	Node	scanning on channel=20...
+asn=593  	id=2   	Node	scanning on channel=20...
+asn=594  	id=4   	Node	scanning on channel=15...
+asn=595  	id=6   	Node	scanning on channel=25...
+asn=600  	id=2   	Node	scanning on channel=26...
+asn=600  	id=2   	RPL	DIS output to -1
+asn=601  	id=4   	Node	scanning on channel=26...
+asn=602  	id=6   	Node	scanning on channel=26...
+asn=603  	id=1   	RPL	DIO output to -1
+asn=604  	id=4   	RPL	DIS output to -1
+asn=607  	id=2   	Node	scanning on channel=20...
+asn=608  	id=4   	Node	scanning on channel=20...
+asn=614  	id=2   	Node	scanning on channel=15...
+asn=620  	id=3   	RPL	DIO input from 1
+asn=620  	id=5   	Node	add neighbor id=1
+asn=620  	id=5   	RPL	DIO input from 1
+asn=620  	id=5   	RPL	DIO output to 1
+asn=620  	id=7   	RPL	DIO input from 1
+asn=620  	id=7   	RPL	DIO output to 1
+asn=622  	id=4   	Node	scanning on channel=15...
+asn=623  	id=6   	Node	scanning on channel=15...
+asn=626  	id=7   	RPL	DIS output to -1
+asn=627  	id=3   	RPL	DIO output to -1
+asn=628  	id=5   	RPL	DIS output to -1
+asn=628  	id=8   	RPL	DIS output to -1
+asn=628  	id=2   	Node	scanning on channel=25...
+asn=629  	id=4   	Node	scanning on channel=26...
+asn=630  	id=6   	Node	scanning on channel=20...
+asn=630  	id=1   	Node	add neighbor id=7
+asn=630  	id=1   	RPL	DIO input from 7
+asn=630  	id=7   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=630  	id=7   	RPL	DIO output to 1
+asn=635  	id=2   	Node	scanning on channel=15...
+asn=636  	id=4   	Node	scanning on channel=25...
+asn=637  	id=6   	Node	scanning on channel=15...
+asn=642  	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=642  	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=642  	id=2   	Node	scanning on channel=25...
+asn=643  	id=4   	Node	scanning on channel=20...
+asn=644  	id=6   	Node	scanning on channel=20...
+asn=644  	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=647  	id=1   	RPL	DIO input from 7
+asn=647  	id=7   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=647  	id=7   	RPL	DIO output to 1
+asn=649  	id=2   	Node	scanning on channel=20...
+asn=650  	id=4   	Node	scanning on channel=25...
+asn=651  	id=6   	Node	scanning on channel=15...
+asn=652  	id=3   	App	generate a packet, seqnum=1 for=1
+asn=652  	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=654  	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=656  	id=2   	Node	scanning on channel=15...
+asn=658  	id=6   	Node	scanning on channel=25...
+asn=661  	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=663  	id=2   	Node	scanning on channel=20...
+asn=664  	id=4   	Node	scanning on channel=15...
+asn=664  	id=3   	Node	tx done to=1 numtx=1 acked=false
+asn=664  	id=7   	Node	tx done to=1 numtx=1 acked=false
+asn=665  	id=6   	Node	scanning on channel=20...
+asn=670  	id=2   	Node	scanning on channel=15...
+asn=671  	id=4   	Node	scanning on channel=20...
+asn=672  	id=6   	Node	scanning on channel=26...
+asn=674  	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=675  	id=3   	App	generate a packet, seqnum=2 for=1
+asn=675  	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=676  	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=677  	id=2   	Node	scanning on channel=25...
+asn=678  	id=4   	Node	scanning on channel=26...
+asn=679  	id=6   	Node	scanning on channel=20...
+asn=680  	id=6   	RPL	DIS output to -1
+asn=682  	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=682  	id=1   	Node	add neighbor id=5
+asn=682  	id=1   	RPL	DIO input from 5
+asn=682  	id=5   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=682  	id=5   	RPL	DIO output to 1
+asn=684  	id=2   	Node	scanning on channel=20...
+asn=684  	id=3   	App	generate a packet, seqnum=3 for=1
+asn=684  	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=686  	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=686  	id=6   	Node	scanning on channel=15...
+asn=691  	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=693  	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=693  	id=6   	Node	scanning on channel=26...
+asn=698  	id=1   	RPL	DIO input from 7
+asn=698  	id=7   	Node	tx done to=1 numtx=2 acked=true, remove packet
+asn=698  	id=7   	RPL	parent switch: null -> 1
+asn=698  	id=7   	Node	add the default route via 1
+asn=699  	id=4   	Node	scanning on channel=20...
+asn=700  	id=6   	Node	scanning on channel=25...
+asn=704  	id=7   	App	generate a packet, seqnum=1 for=1
+asn=704  	id=3   	App	generate a packet, seqnum=4 for=1
+asn=704  	id=2   	RPL	DIS output to -1
+asn=706  	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=706  	id=4   	Node	scanning on channel=15...
+asn=707  	id=6   	Node	scanning on channel=20...
+asn=707  	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=708  	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=712  	id=2   	Node	scanning on channel=26...
+asn=713  	id=1   	RPL	DIO input from 5
+asn=713  	id=5   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=713  	id=5   	RPL	DIO output to 1
+asn=714  	id=6   	Node	scanning on channel=15...
+asn=715  	id=3   	Node	tx done to=1 numtx=2 acked=false
+asn=715  	id=7   	Node	tx done to=1 numtx=1 acked=false
+asn=719  	id=2   	Node	scanning on channel=25...
+asn=721  	id=6   	Node	scanning on channel=20...
+asn=722  	id=3   	App	generate a packet, seqnum=5 for=1
+asn=723  	id=7   	RPL	DAO output
+asn=724  	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=725  	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=726  	id=2   	Node	scanning on channel=20...
+asn=726  	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=727  	id=7   	App	generate a packet, seqnum=2 for=1
+asn=728  	id=8   	RPL	DIS output to -1
+asn=728  	id=6   	Node	scanning on channel=15...
+asn=732  	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=733  	id=2   	Node	scanning on channel=25...
+asn=735  	id=6   	Node	scanning on channel=26...
+asn=740  	id=2   	Node	scanning on channel=26...
+asn=742  	id=6   	Node	scanning on channel=25...
+asn=743  	id=7   	App	generate a packet, seqnum=3 for=1
+asn=744  	id=5   	Node	tx done to=1 numtx=1 acked=false
+asn=746  	id=7   	RPL	DAO output
+asn=747  	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=747  	id=2   	Node	scanning on channel=25...
+asn=749  	id=6   	Node	scanning on channel=26...
+asn=749  	id=3   	App	generate a packet, seqnum=6 for=1
+asn=749  	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=753  	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=753  	id=4   	RPL	DIS output to -1
+asn=754  	id=2   	Node	scanning on channel=20...
+asn=756  	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=756  	id=6   	Node	scanning on channel=25...
+asn=761  	id=2   	Node	scanning on channel=26...
+asn=762  	id=7   	App	generate a packet, seqnum=4 for=1
+asn=763  	id=6   	Node	scanning on channel=15...
+asn=763  	id=3   	App	generate a packet, seqnum=7 for=1
+asn=765  	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=765  	id=-1  	Main	120 seconds, progress 20.00%
+asn=765  	id=-1  	Main	periodic route processing for all nodes
+asn=765  	id=1   	TSCH	stats: {"idle_listen":48,"channel_scan":0,"rx_data":3,"rx_data_tx_ack":10,"tx_data":8,"tx_data_rx_ack":1}
+asn=765  	id=2   	TSCH	stats: {"idle_listen":0,"channel_scan":764,"rx_data":0,"rx_data_tx_ack":0,"tx_data":0,"tx_data_rx_ack":0}
+asn=765  	id=3   	TSCH	stats: {"idle_listen":54,"channel_scan":1,"rx_data":8,"rx_data_tx_ack":1,"tx_data":7,"tx_data_rx_ack":7}
+asn=765  	id=4   	TSCH	stats: {"idle_listen":0,"channel_scan":764,"rx_data":0,"rx_data_tx_ack":0,"tx_data":0,"tx_data_rx_ack":0}
+asn=765  	id=5   	TSCH	stats: {"idle_listen":25,"channel_scan":400,"rx_data":1,"rx_data_tx_ack":0,"tx_data":3,"tx_data_rx_ack":3}
+asn=765  	id=6   	TSCH	stats: {"idle_listen":0,"channel_scan":764,"rx_data":0,"rx_data_tx_ack":0,"tx_data":0,"tx_data_rx_ack":0}
+asn=765  	id=7   	TSCH	stats: {"idle_listen":26,"channel_scan":398,"rx_data":4,"rx_data_tx_ack":0,"tx_data":3,"tx_data_rx_ack":5}
+asn=765  	id=8   	TSCH	stats: {"idle_listen":27,"channel_scan":398,"rx_data":2,"rx_data_tx_ack":0,"tx_data":4,"tx_data_rx_ack":0}
+asn=770  	id=6   	Node	scanning on channel=26...
+asn=771  	id=4   	Node	scanning on channel=25...
+asn=773  	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=775  	id=2   	Node	scanning on channel=15...
+asn=775  	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=775  	id=1   	RPL	DIO input from 5
+asn=775  	id=5   	Node	tx done to=1 numtx=2 acked=true, remove packet
+asn=775  	id=5   	RPL	parent switch: null -> 1
+asn=775  	id=5   	Node	add the default route via 1
+asn=775  	id=5   	TSCH	Orchestra: new time source 1
+asn=775  	id=5   	TSCH	Orchestra: storing mode: remove uc cell to 3, timeslot=3
+asn=775  	id=5   	TSCH	Orchestra: storing mode: add uc cell to 1, timeslot=1
+asn=777  	id=6   	Node	scanning on channel=25...
+asn=778  	id=4   	Node	scanning on channel=26...
+asn=778  	id=7   	RPL	DAO output
+asn=781  	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=782  	id=2   	Node	scanning on channel=20...
+asn=783  	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=783  	id=3   	Node	tx done to=1 numtx=3 acked=false
+asn=783  	id=7   	Node	tx done to=1 numtx=2 acked=false
+asn=784  	id=6   	Node	scanning on channel=20...
+asn=784  	id=3   	App	generate a packet, seqnum=8 for=1
+asn=785  	id=7   	App	generate a packet, seqnum=5 for=1
+asn=785  	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=785  	id=4   	Node	scanning on channel=15...
+asn=789  	id=2   	Node	scanning on channel=25...
+asn=790  	id=5   	RPL	DAO output
+asn=791  	id=6   	Node	scanning on channel=25...
+asn=792  	id=4   	Node	scanning on channel=20...
+asn=795  	id=4   	Node	add neighbor id=1
+asn=795  	id=4   	TSCH	joined/associated at 124.735 on receiving an EB packet from 1
+asn=795  	id=4   	TSCH	Orchestra: new time source 1
+asn=795  	id=4   	TSCH	Orchestra: storing mode: add uc cell to 1, timeslot=1
+asn=795  	id=4   	RPL	DIS output to -1
+asn=796  	id=2   	Node	scanning on channel=15...
+asn=797  	id=6   	Node	add neighbor id=3
+asn=797  	id=6   	TSCH	joined/associated at 125.049 on receiving an EB packet from 3
+asn=797  	id=6   	TSCH	Orchestra: new time source 3
+asn=797  	id=6   	TSCH	Orchestra: storing mode: add uc cell to 3, timeslot=3
+asn=797  	id=6   	RPL	DIS output to -1
+asn=799  	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=800  	id=1   	RPL	DAO input from 5
+asn=800  	id=1   	Node	add route to 5 via 5
+asn=800  	id=1   	TSCH	Orchestra: child added 5
+asn=800  	id=1   	TSCH	Orchestra: storing mode: add uc cell to 5, timeslot=5
+asn=800  	id=1   	RPL	DAO ACK output 241 0
+asn=800  	id=5   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=800  	id=5   	TSCH	Orchestra: parent acked a DAO
+asn=802  	id=7   	App	generate a packet, seqnum=6 for=1
+asn=803  	id=2   	Node	scanning on channel=25...
+asn=804  	id=5   	RPL	got DAO ACK seqno 241 (our 241), status 0
+asn=804  	id=1   	Node	tx done to=5 numtx=1 acked=true, remove packet
+asn=806  	id=1   	Node	add neighbor id=4
+asn=806  	id=1   	RPL	received a DIS from 4
+asn=806  	id=8   	Node	add neighbor id=4
+asn=806  	id=8   	RPL	warning: dis_input: not in an instance yet, discard
+asn=810  	id=7   	RPL	DAO output
+asn=812  	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=812  	id=3   	App	generate a packet, seqnum=9 for=1
+asn=816  	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=818  	id=5   	App	generate a packet, seqnum=1 for=1
+asn=820  	id=5   	RPL	DIO output to -1
+asn=821  	id=1   	RPL	DIO output to -1
+asn=823  	id=7   	App	generate a packet, seqnum=7 for=1
+asn=824  	id=2   	Node	scanning on channel=20...
+asn=824  	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=825  	id=5   	App	generate a packet, seqnum=2 for=1
+asn=830  	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=831  	id=2   	Node	scanning on channel=26...
+asn=831  	id=3   	App	generate a packet, seqnum=10 for=1
+asn=834  	id=1   	App	rx app packet seqnum=1 from=5
+asn=834  	id=5   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=835  	id=7   	RPL	DAO output
+asn=835  	id=7   	RPL	warning: local repair
+asn=835  	id=7   	RPL	parent switch: 1 -> null
+asn=835  	id=7   	Node	remove the default route
+asn=835  	id=7   	TSCH	Orchestra: new time source null
+asn=835  	id=7   	TSCH	Orchestra: storing mode: remove uc cell to 1, timeslot=1
+asn=835  	id=7   	RPL	warning: no acceptable parent
+asn=835  	id=7   	RPL	warning: no acceptable parent
+asn=837  	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=837  	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=837  	id=8   	RPL	DIO input from 1
+asn=837  	id=8   	RPL	DIO output to 1
+asn=838  	id=2   	Node	scanning on channel=20...
+asn=839  	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=840  	id=2   	RPL	DIS output to -1
+asn=844  	id=3   	App	generate a packet, seqnum=11 for=1
+asn=845  	id=2   	Node	scanning on channel=15...
+asn=847  	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=851  	id=1   	App	rx app packet seqnum=2 from=5
+asn=851  	id=5   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=851  	id=8   	Node	tx done to=1 numtx=1 acked=false
+asn=852  	id=2   	Node	scanning on channel=26...
+asn=852  	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=854  	id=5   	App	generate a packet, seqnum=3 for=1
+asn=859  	id=2   	Node	scanning on channel=20...
+asn=864  	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=864  	id=3   	App	generate a packet, seqnum=12 for=1
+asn=865  	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=866  	id=2   	Node	scanning on channel=26...
+asn=866  	id=6   	RPL	DIS output to -1
+asn=868  	id=1   	App	rx app packet seqnum=3 from=5
+asn=868  	id=3   	Node	add neighbor id=6
+asn=868  	id=3   	RPL	received a DIS from 6
+asn=868  	id=4   	Node	add neighbor id=6
+asn=868  	id=4   	RPL	warning: dis_input: not in an instance yet, discard
+asn=868  	id=7   	Node	add neighbor id=6
+asn=868  	id=7   	RPL	received a DIS from 6
+asn=868  	id=8   	Node	add neighbor id=6
+asn=868  	id=8   	RPL	received a DIS from 6
+asn=868  	id=5   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=869  	id=4   	RPL	DIS output to -1
+asn=870  	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=871  	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=871  	id=5   	RPL	DIO output to -1
+asn=873  	id=2   	Node	scanning on channel=15...
+asn=878  	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=878  	id=5   	App	generate a packet, seqnum=4 for=1
+asn=879  	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=883  	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=885  	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=885  	id=1   	App	rx app packet seqnum=4 from=5
+asn=885  	id=5   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=886  	id=3   	App	generate a packet, seqnum=13 for=1
+asn=887  	id=2   	Node	scanning on channel=20...
+asn=888  	id=1   	RPL	DIO output to -1
+asn=892  	id=3   	RPL	DIO output to -1
+asn=894  	id=2   	Node	scanning on channel=15...
+asn=894  	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=895  	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=898  	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=898  	id=5   	App	generate a packet, seqnum=5 for=1
+asn=901  	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=901  	id=2   	Node	scanning on channel=25...
+asn=902  	id=5   	Node	tx done to=1 numtx=1 acked=false
+asn=902  	id=8   	Node	tx done to=1 numtx=2 acked=false
+asn=904  	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=908  	id=2   	Node	scanning on channel=15...
+asn=909  	id=5   	App	generate a packet, seqnum=6 for=1
+asn=912  	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=915  	id=2   	Node	scanning on channel=20...
+asn=915  	id=8   	RPL	DIS output to -1
+asn=916  	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=916  	id=3   	App	generate a packet, seqnum=14 for=1
+asn=918  	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=924  	id=3   	App	generate a packet, seqnum=15 for=1
+asn=929  	id=2   	Node	scanning on channel=26...
+asn=929  	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=930  	id=5   	App	generate a packet, seqnum=7 for=1
+asn=930  	id=1   	Node	add neighbor id=8
+asn=930  	id=1   	RPL	received a DIS from 8
+asn=930  	id=3   	Node	add neighbor id=8
+asn=930  	id=3   	RPL	received a DIS from 8
+asn=930  	id=4   	Node	add neighbor id=8
+asn=930  	id=4   	RPL	warning: dis_input: not in an instance yet, discard
+asn=930  	id=5   	Node	add neighbor id=8
+asn=930  	id=5   	RPL	received a DIS from 8
+asn=930  	id=6   	Node	add neighbor id=8
+asn=930  	id=6   	RPL	warning: dis_input: not in an instance yet, discard
+asn=930  	id=7   	Node	add neighbor id=8
+asn=930  	id=7   	RPL	received a DIS from 8
+asn=934  	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=935  	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=936  	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=936  	id=2   	Node	scanning on channel=25...
+asn=936  	id=1   	App	rx app packet seqnum=5 from=5
+asn=936  	id=5   	Node	tx done to=1 numtx=2 acked=true, remove packet
+asn=938  	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=943  	id=2   	Node	scanning on channel=15...
+asn=945  	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=946  	id=5   	App	generate a packet, seqnum=8 for=1
+asn=946  	id=5   	RPL	DIO output to -1
+asn=949  	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=950  	id=2   	Node	scanning on channel=26...
+asn=950  	id=1   	RPL	DIO output to -1
+asn=953  	id=3   	Node	tx done to=1 numtx=4 acked=false
+asn=953  	id=5   	Node	tx done to=1 numtx=1 acked=false
+asn=954  	id=3   	RPL	DIO output to -1
+asn=955  	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=956  	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=956  	id=3   	App	generate a packet, seqnum=16 for=1
+asn=956  	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=964  	id=2   	Node	scanning on channel=25...
+asn=964  	id=3   	App	generate a packet, seqnum=17 for=1
+asn=965  	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=968  	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=970  	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=971  	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=975  	id=5   	App	generate a packet, seqnum=9 for=1
+asn=978  	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=978  	id=2   	Node	scanning on channel=20...
+asn=978  	id=2   	RPL	DIS output to -1
+asn=982  	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=983  	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=985  	id=2   	Node	scanning on channel=25...
+asn=987  	id=3   	App	generate a packet, seqnum=18 for=1
+asn=987  	id=3   	App	dropping app packet seqnum=18 for=1 to=1: queue full
+asn=989  	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=991  	id=7   	RPL	DIS output to -1
+asn=991  	id=7   	RPL	warning: no acceptable parent
+asn=992  	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=992  	id=1   	RPL	received a DIS from 7
+asn=992  	id=3   	Node	add neighbor id=7
+asn=992  	id=3   	RPL	received a DIS from 7
+asn=992  	id=4   	Node	add neighbor id=7
+asn=992  	id=4   	RPL	warning: dis_input: not in an instance yet, discard
+asn=992  	id=5   	Node	add neighbor id=7
+asn=992  	id=5   	RPL	received a DIS from 7
+asn=992  	id=8   	Node	add neighbor id=7
+asn=992  	id=8   	RPL	received a DIS from 7
+asn=992  	id=7   	RPL	warning: no acceptable parent
+asn=994  	id=5   	App	generate a packet, seqnum=10 for=1
+asn=994  	id=4   	RPL	DIS output to -1
+asn=999  	id=2   	Node	scanning on channel=15...
+asn=1000 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1004 	id=5   	Node	tx done to=1 numtx=2 acked=false
+asn=1004 	id=8   	Node	tx done to=1 numtx=3 acked=false
+asn=1006 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1006 	id=1   	RPL	DIO output to -1
+asn=1007 	id=5   	App	generate a packet, seqnum=11 for=1
+asn=1008 	id=3   	App	generate a packet, seqnum=19 for=1
+asn=1008 	id=3   	App	dropping app packet seqnum=19 for=1 to=1: queue full
+asn=1009 	id=5   	RPL	DIO output to -1
+asn=1013 	id=2   	Node	scanning on channel=26...
+asn=1014 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1016 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1016 	id=3   	RPL	DIO output to -1
+asn=1018 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1020 	id=2   	Node	scanning on channel=25...
+asn=1021 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1023 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1025 	id=5   	App	generate a packet, seqnum=12 for=1
+asn=1027 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1032 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1033 	id=6   	RPL	DIS output to -1
+asn=1033 	id=3   	App	generate a packet, seqnum=20 for=1
+asn=1033 	id=3   	App	dropping app packet seqnum=20 for=1 to=1: queue full
+asn=1033 	id=3   	RPL	warning: no acceptable parent
+asn=1033 	id=3   	RPL	parent switch: 1 -> null
+asn=1033 	id=3   	Node	remove the default route
+asn=1033 	id=3   	TSCH	Orchestra: new time source null
+asn=1033 	id=3   	TSCH	Orchestra: storing mode: remove uc cell to 1, timeslot=1
+asn=1034 	id=2   	Node	scanning on channel=20...
+asn=1036 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1037 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1038 	id=1   	RPL	DIO input from 8
+asn=1038 	id=8   	Node	tx done to=1 numtx=4 acked=true, remove packet
+asn=1038 	id=8   	RPL	parent switch: null -> 1
+asn=1038 	id=8   	Node	add the default route via 1
+asn=1041 	id=2   	Node	scanning on channel=15...
+asn=1042 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1043 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1047 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1048 	id=2   	Node	scanning on channel=25...
+asn=1048 	id=5   	App	generate a packet, seqnum=13 for=1
+asn=1053 	id=8   	App	generate a packet, seqnum=1 for=1
+asn=1054 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1054 	id=1   	Node	add neighbor id=6
+asn=1054 	id=1   	RPL	received a DIS from 6
+asn=1054 	id=3   	RPL	received a DIS from 6
+asn=1054 	id=4   	RPL	warning: dis_input: not in an instance yet, discard
+asn=1054 	id=5   	Node	add neighbor id=6
+asn=1054 	id=5   	RPL	received a DIS from 6
+asn=1054 	id=7   	RPL	received a DIS from 6
+asn=1054 	id=8   	RPL	received a DIS from 6
+asn=1055 	id=2   	Node	scanning on channel=20...
+asn=1055 	id=1   	App	rx app packet seqnum=1 from=8
+asn=1055 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1056 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1059 	id=8   	RPL	DAO output
+asn=1061 	id=5   	App	generate a packet, seqnum=14 for=1
+asn=1062 	id=2   	Node	scanning on channel=25...
+asn=1063 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1063 	id=8   	App	generate a packet, seqnum=2 for=1
+asn=1068 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1069 	id=2   	Node	scanning on channel=26...
+asn=1069 	id=5   	RPL	DIO output to -1
+asn=1072 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1072 	id=1   	RPL	DAO input from 8
+asn=1072 	id=1   	Node	add route to 8 via 8
+asn=1072 	id=1   	TSCH	Orchestra: child added 8
+asn=1072 	id=1   	TSCH	Orchestra: storing mode: add uc cell to 8, timeslot=8
+asn=1072 	id=1   	RPL	DAO ACK output 241 0
+asn=1072 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1072 	id=8   	TSCH	Orchestra: parent acked a DAO
+asn=1074 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1076 	id=2   	Node	scanning on channel=20...
+asn=1078 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1079 	id=8   	RPL	DAO output
+asn=1079 	id=1   	RPL	DIO output to -1
+asn=1079 	id=8   	RPL	got DAO ACK seqno 241 (our 241), status 0
+asn=1079 	id=1   	Node	tx done to=8 numtx=1 acked=true, remove packet
+asn=1083 	id=2   	Node	scanning on channel=15...
+asn=1085 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1085 	id=3   	RPL	DIO input from 1
+asn=1085 	id=3   	RPL	warning: no acceptable parent
+asn=1085 	id=4   	RPL	DIO input from 1
+asn=1085 	id=4   	RPL	DIO output to 1
+asn=1085 	id=8   	RPL	DIO input from 1
+asn=1089 	id=4   	Node	tx done to=1 numtx=1 acked=false
+asn=1089 	id=5   	Node	tx done to=1 numtx=3 acked=false
+asn=1089 	id=8   	Node	tx done to=1 numtx=1 acked=false
+asn=1090 	id=2   	Node	scanning on channel=20...
+asn=1091 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1091 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1094 	id=8   	App	generate a packet, seqnum=3 for=1
+asn=1097 	id=5   	App	generate a packet, seqnum=15 for=1
+asn=1097 	id=2   	Node	scanning on channel=25...
+asn=1097 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1097 	id=7   	RPL	DIS output to -1
+asn=1097 	id=7   	RPL	warning: no acceptable parent
+asn=1098 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1101 	id=8   	RPL	DIO output to -1
+asn=1101 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1104 	id=8   	App	generate a packet, seqnum=4 for=1
+asn=1104 	id=2   	Node	scanning on channel=20...
+asn=1107 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1109 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1111 	id=2   	Node	scanning on channel=25...
+asn=1113 	id=5   	App	generate a packet, seqnum=16 for=1
+asn=1116 	id=5   	RPL	DIO output to -1
+asn=1116 	id=7   	RPL	warning: no acceptable parent
+asn=1117 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1118 	id=2   	Node	scanning on channel=26...
+asn=1123 	id=1   	RPL	DIO input from 4
+asn=1123 	id=4   	Node	tx done to=1 numtx=2 acked=true, remove packet
+asn=1123 	id=4   	RPL	DIO output to 1
+asn=1126 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1126 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1127 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1132 	id=5   	App	generate a packet, seqnum=17 for=1
+asn=1132 	id=2   	Node	scanning on channel=20...
+asn=1133 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1134 	id=8   	App	generate a packet, seqnum=5 for=1
+asn=1136 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1139 	id=2   	Node	scanning on channel=25...
+asn=1140 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1140 	id=1   	RPL	DIO input from 4
+asn=1140 	id=4   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1140 	id=4   	RPL	DIO output to 1
+asn=1141 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1144 	id=8   	App	generate a packet, seqnum=6 for=1
+asn=1144 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1146 	id=2   	Node	scanning on channel=15...
+asn=1146 	id=1   	RPL	DIO output to -1
+asn=1147 	id=3   	RPL	DIS output to -1
+asn=1147 	id=3   	RPL	warning: no acceptable parent
+asn=1147 	id=3   	RPL	warning: no acceptable parent
+asn=1148 	id=-1  	Main	180 seconds, progress 30.02%
+asn=1148 	id=-1  	Main	periodic route processing for all nodes
+asn=1148 	id=1   	TSCH	stats: {"idle_listen":61,"channel_scan":0,"rx_data":7,"rx_data_tx_ack":22,"tx_data":15,"tx_data_rx_ack":3}
+asn=1148 	id=2   	TSCH	stats: {"idle_listen":0,"channel_scan":1147,"rx_data":0,"rx_data_tx_ack":0,"tx_data":0,"tx_data_rx_ack":0}
+asn=1148 	id=3   	RPL	warning: no acceptable parent
+asn=1148 	id=3   	TSCH	stats: {"idle_listen":80,"channel_scan":1,"rx_data":14,"rx_data_tx_ack":1,"tx_data":12,"tx_data_rx_ack":9}
+asn=1148 	id=4   	TSCH	stats: {"idle_listen":24,"channel_scan":795,"rx_data":5,"rx_data_tx_ack":0,"tx_data":3,"tx_data_rx_ack":3}
+asn=1148 	id=5   	TSCH	stats: {"idle_listen":50,"channel_scan":400,"rx_data":4,"rx_data_tx_ack":1,"tx_data":9,"tx_data_rx_ack":14}
+asn=1148 	id=6   	TSCH	stats: {"idle_listen":28,"channel_scan":797,"rx_data":1,"rx_data_tx_ack":0,"tx_data":3,"tx_data_rx_ack":0}
+asn=1148 	id=7   	RPL	warning: no acceptable parent
+asn=1148 	id=7   	TSCH	stats: {"idle_listen":56,"channel_scan":398,"rx_data":8,"rx_data_tx_ack":0,"tx_data":6,"tx_data_rx_ack":6}
+asn=1148 	id=8   	TSCH	stats: {"idle_listen":53,"channel_scan":398,"rx_data":9,"rx_data_tx_ack":1,"tx_data":6,"tx_data_rx_ack":7}
+asn=1149 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1150 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1153 	id=2   	Node	scanning on channel=26...
+asn=1154 	id=2   	RPL	DIS output to -1
+asn=1157 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1157 	id=4   	Node	tx done to=1 numtx=1 acked=false
+asn=1157 	id=8   	Node	tx done to=1 numtx=2 acked=false
+asn=1160 	id=2   	Node	scanning on channel=25...
+asn=1170 	id=8   	App	generate a packet, seqnum=7 for=1
+asn=1172 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1172 	id=8   	RPL	DIO output to -1
+asn=1174 	id=2   	Node	scanning on channel=26...
+asn=1174 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1174 	id=1   	App	rx app packet seqnum=6 from=5
+asn=1174 	id=5   	Node	tx done to=1 numtx=4 acked=true, remove packet
+asn=1175 	id=5   	App	generate a packet, seqnum=18 for=1
+asn=1176 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1178 	id=1   	RPL	DIO input from 8
+asn=1178 	id=3   	RPL	DIO input from 8
+asn=1178 	id=3   	RPL	DIO output to 8
+asn=1178 	id=4   	RPL	DIO input from 8
+asn=1178 	id=6   	RPL	DIO input from 8
+asn=1178 	id=6   	RPL	DIO output to 8
+asn=1178 	id=7   	RPL	DIO input from 8
+asn=1178 	id=7   	RPL	DIO output to 8
+asn=1179 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1181 	id=2   	Node	scanning on channel=20...
+asn=1182 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1184 	id=4   	RPL	DIS output to -1
+asn=1186 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1188 	id=5   	App	generate a packet, seqnum=19 for=1
+asn=1188 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1191 	id=5   	Node	tx done to=1 numtx=1 acked=false
+asn=1191 	id=8   	Node	tx done to=1 numtx=3 acked=false
+asn=1192 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1195 	id=2   	Node	scanning on channel=15...
+asn=1195 	id=8   	App	generate a packet, seqnum=8 for=1
+asn=1196 	id=2   	Node	add neighbor id=5
+asn=1196 	id=2   	TSCH	joined/associated at 187.652 on receiving an EB packet from 5
+asn=1196 	id=2   	TSCH	Orchestra: new time source 5
+asn=1196 	id=2   	TSCH	Orchestra: storing mode: add uc cell to 5, timeslot=5
+asn=1196 	id=2   	RPL	DIS output to -1
+asn=1196 	id=6   	Node	add neighbor id=5
+asn=1198 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1203 	id=7   	RPL	DIS output to -1
+asn=1203 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1205 	id=6   	RPL	DIS output to -1
+asn=1207 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1207 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1209 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1209 	id=3   	Node	tx done to=8 numtx=1 acked=false
+asn=1212 	id=5   	App	generate a packet, seqnum=20 for=1
+asn=1218 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1218 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1220 	id=8   	App	generate a packet, seqnum=9 for=1
+asn=1223 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1225 	id=4   	Node	tx done to=1 numtx=2 acked=false
+asn=1225 	id=5   	Node	tx done to=1 numtx=2 acked=false
+asn=1229 	id=5   	RPL	DIO output to -1
+asn=1232 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1238 	id=5   	App	generate a packet, seqnum=21 for=1
+asn=1238 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1238 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1240 	id=6   	Node	tx done to=8 numtx=1 acked=false
+asn=1240 	id=7   	Node	tx done to=8 numtx=1 acked=false
+asn=1242 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1242 	id=8   	App	generate a packet, seqnum=10 for=1
+asn=1249 	id=5   	App	generate a packet, seqnum=22 for=1
+asn=1250 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1251 	id=8   	App	generate a packet, seqnum=11 for=1
+asn=1252 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1252 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1255 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1257 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1261 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1263 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1266 	id=8   	App	generate a packet, seqnum=12 for=1
+asn=1268 	id=5   	App	generate a packet, seqnum=23 for=1
+asn=1271 	id=8   	Node	add neighbor id=3
+asn=1271 	id=8   	RPL	DIO input from 3
+asn=1271 	id=3   	Node	tx done to=8 numtx=2 acked=true, remove packet
+asn=1271 	id=3   	RPL	DIO output to 8
+asn=1271 	id=6   	Node	tx done to=8 numtx=2 acked=false
+asn=1275 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1276 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1276 	id=1   	App	rx app packet seqnum=2 from=8
+asn=1276 	id=8   	Node	tx done to=1 numtx=4 acked=true, remove packet
+asn=1278 	id=1   	RPL	DIO output to -1
+asn=1280 	id=8   	RPL	DIO output to 3
+asn=1289 	id=8   	RPL	DIO output to -1
+asn=1290 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1293 	id=1   	RPL	DAO input from 8
+asn=1293 	id=1   	RPL	DAO ACK output 241 0
+asn=1293 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1293 	id=8   	TSCH	Orchestra: parent acked a DAO
+asn=1294 	id=8   	App	generate a packet, seqnum=13 for=1
+asn=1295 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1299 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1300 	id=5   	App	generate a packet, seqnum=24 for=1
+asn=1300 	id=5   	App	dropping app packet seqnum=24 for=1 to=1: queue full
+asn=1300 	id=8   	RPL	got DAO ACK seqno 241 (our 241), status 0
+asn=1300 	id=1   	Node	tx done to=8 numtx=1 acked=true, remove packet
+asn=1301 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1302 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1302 	id=3   	Node	tx done to=8 numtx=1 acked=false
+asn=1302 	id=6   	Node	tx done to=8 numtx=3 acked=false
+asn=1306 	id=7   	RPL	DIS output to -1
+asn=1306 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1309 	id=3   	RPL	DIS output to -1
+asn=1310 	id=4   	Node	tx done to=1 numtx=3 acked=false
+asn=1310 	id=5   	Node	tx done to=1 numtx=3 acked=false
+asn=1310 	id=8   	Node	tx done to=1 numtx=1 acked=false
+asn=1314 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1315 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1315 	id=8   	App	generate a packet, seqnum=14 for=1
+asn=1323 	id=5   	App	generate a packet, seqnum=25 for=1
+asn=1323 	id=5   	App	dropping app packet seqnum=25 for=1 to=1: queue full
+asn=1328 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1329 	id=2   	RPL	DIS output to -1
+asn=1330 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1333 	id=8   	Node	tx done to=3 numtx=1 acked=false
+asn=1334 	id=8   	App	generate a packet, seqnum=15 for=1
+asn=1339 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1346 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1346 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1347 	id=5   	App	generate a packet, seqnum=26 for=1
+asn=1347 	id=5   	App	dropping app packet seqnum=26 for=1 to=1: queue full
+asn=1347 	id=5   	RPL	warning: no acceptable parent
+asn=1347 	id=5   	RPL	parent switch: 1 -> null
+asn=1347 	id=5   	Node	remove the default route
+asn=1347 	id=5   	TSCH	Orchestra: new time source null
+asn=1347 	id=5   	TSCH	Orchestra: storing mode: remove uc cell to 1, timeslot=1
+asn=1350 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1351 	id=8   	App	generate a packet, seqnum=16 for=1
+asn=1354 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1357 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1363 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1364 	id=3   	Node	tx done to=8 numtx=2 acked=false
+asn=1364 	id=7   	Node	tx done to=8 numtx=2 acked=false
+asn=1368 	id=4   	RPL	DIS output to -1
+asn=1369 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1369 	id=8   	App	generate a packet, seqnum=17 for=1
+asn=1370 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1372 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1375 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1378 	id=1   	App	rx app packet seqnum=3 from=8
+asn=1378 	id=8   	Node	tx done to=1 numtx=2 acked=true, remove packet
+asn=1379 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1379 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1380 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1384 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1386 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1386 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1388 	id=8   	App	generate a packet, seqnum=18 for=1
+asn=1391 	id=6   	RPL	DIS output to -1
+asn=1393 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1395 	id=1   	App	rx app packet seqnum=4 from=8
+asn=1395 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1398 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1405 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1406 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1406 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1407 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1411 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1412 	id=1   	App	rx app packet seqnum=5 from=8
+asn=1412 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1420 	id=8   	App	generate a packet, seqnum=19 for=1
+asn=1423 	id=3   	RPL	DIS output to -1
+asn=1426 	id=8   	App	generate a packet, seqnum=20 for=1
+asn=1426 	id=6   	Node	tx done to=8 numtx=4 acked=false
+asn=1426 	id=8   	Node	tx done to=3 numtx=2 acked=false
+asn=1427 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1428 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1429 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1429 	id=4   	Node	tx done to=1 numtx=4 acked=false
+asn=1429 	id=8   	Node	tx done to=1 numtx=1 acked=false
+asn=1430 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1430 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1431 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1435 	id=7   	RPL	DIS output to -1
+asn=1442 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1445 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1447 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1448 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1451 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1452 	id=8   	App	generate a packet, seqnum=21 for=1
+asn=1455 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1457 	id=1   	RPL	received a DIS from 7
+asn=1457 	id=2   	Node	add neighbor id=7
+asn=1457 	id=2   	RPL	warning: dis_input: not in an instance yet, discard
+asn=1457 	id=3   	RPL	received a DIS from 7
+asn=1457 	id=4   	RPL	received a DIS from 7
+asn=1457 	id=5   	RPL	received a DIS from 7
+asn=1457 	id=6   	Node	add neighbor id=7
+asn=1457 	id=6   	RPL	received a DIS from 7
+asn=1457 	id=8   	RPL	received a DIS from 7
+asn=1460 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1463 	id=1   	App	rx app packet seqnum=6 from=8
+asn=1463 	id=8   	Node	tx done to=1 numtx=2 acked=true, remove packet
+asn=1468 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1469 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1474 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1475 	id=7   	RPL	DIO output to 8
+asn=1478 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1479 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1480 	id=1   	App	rx app packet seqnum=7 from=8
+asn=1480 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1481 	id=8   	RPL	DIO output to -1
+asn=1482 	id=8   	App	generate a packet, seqnum=22 for=1
+asn=1482 	id=5   	RPL	DIS output to -1
+asn=1482 	id=5   	RPL	warning: no acceptable parent
+asn=1482 	id=1   	RPL	DIO output to -1
+asn=1485 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1486 	id=8   	App	generate a packet, seqnum=23 for=1
+asn=1487 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1488 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1488 	id=5   	RPL	warning: no acceptable parent
+asn=1488 	id=7   	Node	tx done to=8 numtx=3 acked=false
+asn=1490 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1495 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1496 	id=6   	RPL	DIO output to 8
+asn=1497 	id=2   	RPL	DIS output to -1
+asn=1497 	id=1   	App	rx app packet seqnum=8 from=8
+asn=1497 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1499 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1500 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1503 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1506 	id=6   	RPL	DIS output to -1
+asn=1510 	id=8   	App	generate a packet, seqnum=24 for=1
+asn=1510 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1514 	id=1   	App	rx app packet seqnum=9 from=8
+asn=1514 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1516 	id=4   	RPL	DIS output to -1
+asn=1519 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1519 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1519 	id=8   	Node	tx done to=3 numtx=3 acked=false
+asn=1521 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1522 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1528 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1530 	id=-1  	Main	240 seconds, progress 40.01%
+asn=1530 	id=-1  	Main	periodic route processing for all nodes
+asn=1530 	id=1   	TSCH	stats: {"idle_listen":80,"channel_scan":0,"rx_data":9,"rx_data_tx_ack":32,"tx_data":18,"tx_data_rx_ack":4}
+asn=1530 	id=2   	TSCH	stats: {"idle_listen":24,"channel_scan":1196,"rx_data":2,"rx_data_tx_ack":0,"tx_data":3,"tx_data_rx_ack":0}
+asn=1530 	id=3   	TSCH	stats: {"idle_listen":106,"channel_scan":1,"rx_data":16,"rx_data_tx_ack":1,"tx_data":15,"tx_data_rx_ack":13}
+asn=1530 	id=4   	TSCH	stats: {"idle_listen":53,"channel_scan":795,"rx_data":7,"rx_data_tx_ack":0,"tx_data":6,"tx_data_rx_ack":7}
+asn=1530 	id=5   	RPL	warning: no acceptable parent
+asn=1530 	id=5   	TSCH	stats: {"idle_listen":81,"channel_scan":400,"rx_data":5,"rx_data_tx_ack":1,"tx_data":12,"tx_data_rx_ack":18}
+asn=1530 	id=6   	TSCH	stats: {"idle_listen":52,"channel_scan":797,"rx_data":4,"rx_data_tx_ack":0,"tx_data":6,"tx_data_rx_ack":4}
+asn=1530 	id=7   	TSCH	stats: {"idle_listen":82,"channel_scan":398,"rx_data":9,"rx_data_tx_ack":0,"tx_data":9,"tx_data_rx_ack":9}
+asn=1530 	id=8   	TSCH	stats: {"idle_listen":78,"channel_scan":398,"rx_data":10,"rx_data_tx_ack":3,"tx_data":10,"tx_data_rx_ack":23}
+asn=1531 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1531 	id=1   	App	rx app packet seqnum=10 from=8
+asn=1531 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1533 	id=8   	RPL	DIO output to -1
+asn=1536 	id=8   	App	generate a packet, seqnum=25 for=1
+asn=1537 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1538 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1541 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1544 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1544 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1548 	id=1   	App	rx app packet seqnum=11 from=8
+asn=1548 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1550 	id=1   	RPL	DIO output to -1
+asn=1550 	id=6   	Node	tx done to=8 numtx=5 acked=false
+asn=1555 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1555 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1556 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1560 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1562 	id=8   	App	generate a packet, seqnum=26 for=1
+asn=1565 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1565 	id=1   	App	rx app packet seqnum=12 from=8
+asn=1565 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1566 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1567 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1567 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1569 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1572 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1575 	id=8   	App	generate a packet, seqnum=27 for=1
+asn=1582 	id=1   	App	rx app packet seqnum=13 from=8
+asn=1582 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1584 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1589 	id=8   	App	generate a packet, seqnum=28 for=1
+asn=1590 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1593 	id=5   	RPL	warning: no acceptable parent
+asn=1597 	id=3   	RPL	DIS output to -1
+asn=1598 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1599 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1599 	id=1   	App	rx app packet seqnum=14 from=8
+asn=1599 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1601 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1601 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1602 	id=8   	RPL	DIO output to 3
+asn=1610 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1610 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1612 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1612 	id=1   	RPL	received a DIS from 3
+asn=1612 	id=2   	Node	add neighbor id=3
+asn=1612 	id=2   	RPL	warning: dis_input: not in an instance yet, discard
+asn=1612 	id=4   	Node	add neighbor id=3
+asn=1612 	id=4   	RPL	received a DIS from 3
+asn=1612 	id=5   	RPL	received a DIS from 3
+asn=1612 	id=6   	RPL	received a DIS from 3
+asn=1612 	id=7   	Node	add neighbor id=3
+asn=1612 	id=7   	RPL	received a DIS from 3
+asn=1612 	id=8   	RPL	received a DIS from 3
+asn=1614 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1615 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1616 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1616 	id=1   	App	rx app packet seqnum=15 from=8
+asn=1616 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1617 	id=7   	RPL	DIS output to -1
+asn=1623 	id=8   	App	generate a packet, seqnum=29 for=1
+asn=1625 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1627 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1627 	id=8   	RPL	DIO output to -1
+asn=1627 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1631 	id=8   	App	generate a packet, seqnum=30 for=1
+asn=1633 	id=1   	App	rx app packet seqnum=16 from=8
+asn=1633 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1634 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1638 	id=1   	RPL	DIO output to -1
+asn=1639 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1640 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1641 	id=6   	RPL	DIS output to -1
+asn=1643 	id=3   	Node	tx done to=8 numtx=3 acked=false
+asn=1648 	id=8   	App	generate a packet, seqnum=31 for=1
+asn=1649 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1650 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1650 	id=1   	App	rx app packet seqnum=17 from=8
+asn=1650 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1651 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1652 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1653 	id=4   	RPL	DIS output to -1
+asn=1656 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1657 	id=2   	RPL	DIS output to -1
+asn=1658 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1658 	id=5   	RPL	DIS output to -1
+asn=1658 	id=5   	RPL	warning: no acceptable parent
+asn=1661 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1663 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1663 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1667 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1667 	id=1   	App	rx app packet seqnum=18 from=8
+asn=1667 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1668 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1672 	id=8   	App	generate a packet, seqnum=32 for=1
+asn=1674 	id=5   	RPL	warning: no acceptable parent
+asn=1674 	id=6   	Node	tx done to=8 numtx=6 acked=false
+asn=1674 	id=8   	Node	tx done to=3 numtx=4 acked=false
+asn=1680 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1684 	id=4   	Node	tx done to=1 numtx=5 acked=false
+asn=1684 	id=8   	Node	tx done to=1 numtx=1 acked=false
+asn=1685 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1688 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1688 	id=8   	RPL	DIO output to -1
+asn=1690 	id=4   	RPL	DIO output to 1
+asn=1693 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1696 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1699 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1702 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1703 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1703 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1705 	id=8   	App	generate a packet, seqnum=33 for=1
+asn=1705 	id=1   	RPL	DIO input from 8
+asn=1705 	id=2   	Node	add neighbor id=8
+asn=1705 	id=2   	RPL	DIO input from 8
+asn=1705 	id=2   	RPL	DIO output to 8
+asn=1705 	id=3   	RPL	DIO input from 8
+asn=1705 	id=4   	RPL	DIO input from 8
+asn=1705 	id=6   	RPL	DIO input from 8
+asn=1705 	id=7   	RPL	DIO input from 8
+asn=1707 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1708 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1709 	id=8   	App	generate a packet, seqnum=34 for=1
+asn=1711 	id=1   	RPL	DIO output to -1
+asn=1715 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1718 	id=1   	App	rx app packet seqnum=19 from=8
+asn=1718 	id=8   	Node	tx done to=1 numtx=2 acked=true, remove packet
+asn=1722 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1723 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1729 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1729 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1735 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1735 	id=1   	App	rx app packet seqnum=20 from=8
+asn=1735 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1736 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1736 	id=2   	Node	tx done to=8 numtx=1 acked=false
+asn=1736 	id=3   	Node	tx done to=8 numtx=4 acked=false
+asn=1738 	id=8   	App	generate a packet, seqnum=35 for=1
+asn=1739 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1743 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1746 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1747 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1748 	id=3   	RPL	DIS output to -1
+asn=1750 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1752 	id=1   	App	rx app packet seqnum=21 from=8
+asn=1752 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1753 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1759 	id=8   	App	generate a packet, seqnum=36 for=1
+asn=1760 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1766 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1767 	id=5   	RPL	DIS output to -1
+asn=1767 	id=5   	RPL	warning: no acceptable parent
+asn=1767 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1767 	id=2   	Node	tx done to=8 numtx=2 acked=false
+asn=1767 	id=5   	RPL	warning: no acceptable parent
+asn=1768 	id=3   	RPL	DIO output to 8
+asn=1769 	id=1   	App	rx app packet seqnum=22 from=8
+asn=1769 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1770 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1776 	id=8   	App	generate a packet, seqnum=37 for=1
+asn=1779 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1780 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1783 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1786 	id=1   	App	rx app packet seqnum=23 from=8
+asn=1786 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1788 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1790 	id=7   	RPL	DIS output to -1
+asn=1793 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1794 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1794 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1795 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1797 	id=8   	App	generate a packet, seqnum=38 for=1
+asn=1798 	id=8   	Node	add neighbor id=2
+asn=1798 	id=8   	RPL	DIO input from 2
+asn=1798 	id=2   	Node	tx done to=8 numtx=3 acked=true, remove packet
+asn=1798 	id=2   	RPL	DIO output to 8
+asn=1803 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1803 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1803 	id=1   	App	rx app packet seqnum=24 from=8
+asn=1803 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1808 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1809 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1809 	id=4   	RPL	DIS output to -1
+asn=1809 	id=2   	RPL	DIS output to -1
+asn=1811 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1812 	id=1   	RPL	DIO output to -1
+asn=1814 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1818 	id=8   	App	generate a packet, seqnum=39 for=1
+asn=1820 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1820 	id=1   	App	rx app packet seqnum=25 from=8
+asn=1820 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1823 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1827 	id=8   	App	generate a packet, seqnum=40 for=1
+asn=1828 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1832 	id=6   	RPL	DIS output to -1
+asn=1832 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1833 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1837 	id=8   	RPL	DIO output to -1
+asn=1837 	id=1   	App	rx app packet seqnum=26 from=8
+asn=1837 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1839 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1839 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1846 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1846 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1851 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1852 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1853 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1854 	id=1   	App	rx app packet seqnum=27 from=8
+asn=1854 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1857 	id=8   	App	generate a packet, seqnum=41 for=1
+asn=1859 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1860 	id=2   	Node	tx done to=8 numtx=1 acked=false
+asn=1865 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1868 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1870 	id=3   	RPL	DIS output to -1
+asn=1871 	id=4   	Node	tx done to=1 numtx=6 acked=false
+asn=1871 	id=8   	Node	tx done to=1 numtx=1 acked=false
+asn=1874 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1876 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1876 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1878 	id=8   	App	generate a packet, seqnum=42 for=1
+asn=1879 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1891 	id=1   	RPL	received a DIS from 3
+asn=1891 	id=2   	RPL	received a DIS from 3
+asn=1891 	id=5   	RPL	received a DIS from 3
+asn=1891 	id=6   	RPL	received a DIS from 3
+asn=1891 	id=7   	RPL	received a DIS from 3
+asn=1891 	id=8   	RPL	received a DIS from 3
+asn=1892 	id=6   	RPL	DIO output to 8
+asn=1894 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1897 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1898 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1899 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1901 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1903 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1906 	id=8   	App	generate a packet, seqnum=43 for=1
+asn=1909 	id=1   	RPL	DIO output to -1
+asn=1910 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1911 	id=8   	App	generate a packet, seqnum=44 for=1
+asn=1911 	id=5   	RPL	DIS output to -1
+asn=1911 	id=5   	RPL	warning: no acceptable parent
+asn=1913 	id=-1  	Main	300 seconds, progress 50.02%
+asn=1913 	id=-1  	Main	periodic route processing for all nodes
+asn=1913 	id=1   	TSCH	stats: {"idle_listen":88,"channel_scan":0,"rx_data":14,"rx_data_tx_ack":50,"tx_data":23,"tx_data_rx_ack":4}
+asn=1913 	id=2   	TSCH	stats: {"idle_listen":50,"channel_scan":1196,"rx_data":5,"rx_data_tx_ack":0,"tx_data":5,"tx_data_rx_ack":4}
+asn=1913 	id=3   	TSCH	stats: {"idle_listen":133,"channel_scan":1,"rx_data":18,"rx_data_tx_ack":1,"tx_data":18,"tx_data_rx_ack":15}
+asn=1913 	id=4   	TSCH	stats: {"idle_listen":83,"channel_scan":795,"rx_data":10,"rx_data_tx_ack":0,"tx_data":8,"tx_data_rx_ack":9}
+asn=1913 	id=5   	RPL	warning: no acceptable parent
+asn=1913 	id=5   	TSCH	stats: {"idle_listen":111,"channel_scan":400,"rx_data":7,"rx_data_tx_ack":1,"tx_data":15,"tx_data_rx_ack":18}
+asn=1913 	id=6   	TSCH	stats: {"idle_listen":81,"channel_scan":797,"rx_data":7,"rx_data_tx_ack":0,"tx_data":8,"tx_data_rx_ack":6}
+asn=1913 	id=7   	TSCH	stats: {"idle_listen":110,"channel_scan":398,"rx_data":13,"rx_data_tx_ack":0,"tx_data":11,"tx_data_rx_ack":9}
+asn=1913 	id=8   	TSCH	stats: {"idle_listen":104,"channel_scan":398,"rx_data":12,"rx_data_tx_ack":4,"tx_data":15,"tx_data_rx_ack":44}
+asn=1914 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1915 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1915 	id=7   	RPL	DIO output to 8
+asn=1917 	id=8   	RPL	DIO output to -1
+asn=1918 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1918 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1918 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1922 	id=2   	Node	tx done to=8 numtx=2 acked=false
+asn=1922 	id=5   	RPL	warning: no acceptable parent
+asn=1925 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1926 	id=4   	RPL	DIS output to -1
+asn=1930 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1931 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1931 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1937 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1939 	id=1   	App	rx app packet seqnum=28 from=8
+asn=1939 	id=8   	Node	tx done to=1 numtx=2 acked=true, remove packet
+asn=1940 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1941 	id=8   	App	generate a packet, seqnum=45 for=1
+asn=1943 	id=7   	RPL	DIS output to -1
+asn=1944 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1946 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1948 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1949 	id=8   	App	generate a packet, seqnum=46 for=1
+asn=1949 	id=8   	App	dropping app packet seqnum=46 for=1 to=1: queue full
+asn=1953 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1953 	id=2   	Node	tx done to=8 numtx=3 acked=false
+asn=1956 	id=1   	App	rx app packet seqnum=29 from=8
+asn=1956 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1957 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1958 	id=1   	RPL	DIO output to -1
+asn=1962 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1964 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1968 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1971 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1971 	id=8   	RPL	DIO output to -1
+asn=1971 	id=6   	RPL	DIS output to -1
+asn=1973 	id=1   	App	rx app packet seqnum=30 from=8
+asn=1973 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=1976 	id=2   	RPL	DIS output to -1
+asn=1977 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1978 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1980 	id=8   	App	generate a packet, seqnum=47 for=1
+asn=1982 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1984 	id=7   	Node	tx done to=8 numtx=4 acked=false
+asn=1990 	id=8   	App	generate a packet, seqnum=48 for=1
+asn=1990 	id=4   	Node	tx done to=1 numtx=7 acked=false
+asn=1990 	id=8   	Node	tx done to=1 numtx=1 acked=false
+asn=1993 	id=8   	RPL	DIO output to 3
+asn=1994 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1996 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1998 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1998 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=1999 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2000 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2006 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2006 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2010 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2011 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2015 	id=6   	Node	tx done to=8 numtx=7 acked=false
+asn=2015 	id=8   	Node	tx done to=3 numtx=5 acked=false
+asn=2021 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2023 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2023 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2023 	id=8   	App	generate a packet, seqnum=49 for=1
+asn=2023 	id=8   	App	dropping app packet seqnum=49 for=1 to=1: queue full
+asn=2024 	id=1   	App	rx app packet seqnum=31 from=8
+asn=2024 	id=8   	Node	tx done to=1 numtx=2 acked=true, remove packet
+asn=2026 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2029 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2034 	id=8   	App	generate a packet, seqnum=50 for=1
+asn=2035 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2038 	id=4   	RPL	DIO output to 1
+asn=2038 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2041 	id=1   	App	rx app packet seqnum=32 from=8
+asn=2041 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=2043 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2047 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2048 	id=5   	RPL	DIS output to -1
+asn=2048 	id=5   	RPL	warning: no acceptable parent
+asn=2049 	id=8   	App	generate a packet, seqnum=51 for=1
+asn=2052 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2054 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2058 	id=1   	App	rx app packet seqnum=33 from=8
+asn=2058 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=2060 	id=3   	RPL	DIS output to -1
+asn=2060 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2061 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2065 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2065 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2067 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2069 	id=8   	RPL	DIO output to -1
+asn=2070 	id=1   	RPL	DIO output to -1
+asn=2071 	id=4   	RPL	DIS output to -1
+asn=2073 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2075 	id=7   	RPL	DIS output to -1
+asn=2075 	id=1   	App	rx app packet seqnum=34 from=8
+asn=2075 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=2077 	id=2   	Node	tx done to=8 numtx=4 acked=false
+asn=2077 	id=5   	RPL	warning: no acceptable parent
+asn=2080 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2080 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2082 	id=8   	App	generate a packet, seqnum=52 for=1
+asn=2082 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2083 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2091 	id=8   	App	generate a packet, seqnum=53 for=1
+asn=2092 	id=1   	App	rx app packet seqnum=35 from=8
+asn=2092 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=2093 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2093 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2095 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2096 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2101 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2105 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2108 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2108 	id=6   	Node	tx done to=8 numtx=8 acked=false, remove packet
+asn=2108 	id=6   	RPL	parent switch: null -> 8
+asn=2108 	id=6   	Node	add the default route via 8
+asn=2108 	id=6   	TSCH	Orchestra: new time source 8
+asn=2108 	id=6   	TSCH	Orchestra: storing mode: remove uc cell to 3, timeslot=3
+asn=2108 	id=6   	TSCH	Orchestra: storing mode: add uc cell to 8, timeslot=8
+asn=2108 	id=8   	Node	tx done to=3 numtx=6 acked=false
+asn=2109 	id=1   	App	rx app packet seqnum=36 from=8
+asn=2109 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=2112 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2118 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2124 	id=6   	App	generate a packet, seqnum=1 for=1
+asn=2124 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2126 	id=2   	RPL	DIO output to 8
+asn=2126 	id=2   	RPL	DIS output to -1
+asn=2126 	id=1   	App	rx app packet seqnum=37 from=8
+asn=2126 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=2127 	id=6   	RPL	DAO output
+asn=2129 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2133 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2133 	id=6   	App	generate a packet, seqnum=2 for=1
+asn=2136 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2139 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2139 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2139 	id=1   	Node	add neighbor id=2
+asn=2139 	id=1   	RPL	received a DIS from 2
+asn=2139 	id=3   	Node	add neighbor id=2
+asn=2139 	id=3   	RPL	received a DIS from 2
+asn=2139 	id=4   	Node	add neighbor id=2
+asn=2139 	id=4   	RPL	received a DIS from 2
+asn=2139 	id=5   	Node	add neighbor id=2
+asn=2139 	id=5   	RPL	received a DIS from 2
+asn=2139 	id=6   	Node	add neighbor id=2
+asn=2139 	id=6   	RPL	received a DIS from 2
+asn=2139 	id=7   	Node	add neighbor id=2
+asn=2139 	id=7   	RPL	received a DIS from 2
+asn=2139 	id=8   	RPL	received a DIS from 2
+asn=2143 	id=1   	App	rx app packet seqnum=38 from=8
+asn=2143 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=2147 	id=6   	RPL	DAO output
+asn=2147 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2148 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2149 	id=8   	App	generate a packet, seqnum=54 for=1
+asn=2156 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2156 	id=8   	RPL	DIO output to -1
+asn=2158 	id=6   	App	generate a packet, seqnum=3 for=1
+asn=2159 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2160 	id=1   	App	rx app packet seqnum=39 from=8
+asn=2160 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=2161 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2163 	id=1   	RPL	DIO output to -1
+asn=2163 	id=8   	App	generate a packet, seqnum=55 for=1
+asn=2164 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2167 	id=6   	RPL	DAO output
+asn=2170 	id=5   	RPL	DIO input from 1
+asn=2170 	id=5   	RPL	warning: no acceptable parent
+asn=2170 	id=6   	Node	add neighbor id=1
+asn=2170 	id=6   	RPL	DIO input from 1
+asn=2170 	id=6   	RPL	DIO output to 1
+asn=2170 	id=7   	RPL	DIO input from 1
+asn=2170 	id=7   	RPL	parent switch: null -> 1
+asn=2170 	id=7   	Node	add the default route via 1
+asn=2170 	id=7   	TSCH	Orchestra: new time source 1
+asn=2170 	id=7   	TSCH	Orchestra: storing mode: add uc cell to 1, timeslot=1
+asn=2171 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2174 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2176 	id=6   	App	generate a packet, seqnum=4 for=1
+asn=2177 	id=7   	Node	tx done to=1 numtx=3 acked=false
+asn=2177 	id=8   	Node	tx done to=1 numtx=1 acked=false
+asn=2179 	id=7   	App	generate a packet, seqnum=8 for=1
+asn=2180 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2184 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2185 	id=7   	RPL	DAO output
+asn=2187 	id=8   	App	generate a packet, seqnum=56 for=1
+asn=2188 	id=4   	RPL	DIS output to -1
+asn=2196 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2198 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2199 	id=7   	App	generate a packet, seqnum=9 for=1
+asn=2201 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2201 	id=1   	RPL	received a DIS from 4
+asn=2201 	id=6   	Node	tx done to=1 numtx=1 acked=false
+asn=2204 	id=6   	App	generate a packet, seqnum=5 for=1
+asn=2210 	id=8   	App	generate a packet, seqnum=57 for=1
+asn=2211 	id=1   	App	rx app packet seqnum=40 from=8
+asn=2211 	id=8   	Node	tx done to=1 numtx=2 acked=true, remove packet
+asn=2212 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2212 	id=7   	RPL	DAO output
+asn=2213 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2218 	id=8   	App	generate a packet, seqnum=58 for=1
+asn=2219 	id=8   	RPL	DIO output to -1
+asn=2222 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2222 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2223 	id=6   	App	generate a packet, seqnum=6 for=1
+asn=2224 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2224 	id=7   	App	generate a packet, seqnum=10 for=1
+asn=2225 	id=1   	RPL	DIO output to -1
+asn=2228 	id=1   	App	rx app packet seqnum=41 from=8
+asn=2228 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=2230 	id=6   	App	generate a packet, seqnum=7 for=1
+asn=2231 	id=3   	RPL	DIS output to -1
+asn=2232 	id=7   	Node	tx done to=8 numtx=5 acked=false
+asn=2236 	id=8   	App	generate a packet, seqnum=59 for=1
+asn=2237 	id=7   	App	generate a packet, seqnum=11 for=1
+asn=2237 	id=7   	App	dropping app packet seqnum=11 for=1 to=1: queue full
+asn=2237 	id=5   	RPL	DIS output to -1
+asn=2237 	id=5   	RPL	warning: no acceptable parent
+asn=2238 	id=7   	RPL	DAO output
+asn=2239 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2242 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2245 	id=4   	Node	tx done to=1 numtx=8 acked=false, remove packet
+asn=2245 	id=4   	RPL	parent switch: null -> 1
+asn=2245 	id=4   	Node	add the default route via 1
+asn=2245 	id=8   	Node	tx done to=1 numtx=1 acked=false
+asn=2248 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2249 	id=4   	App	generate a packet, seqnum=1 for=1
+asn=2257 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2258 	id=6   	App	generate a packet, seqnum=8 for=1
+asn=2260 	id=7   	RPL	DAO output
+asn=2260 	id=7   	RPL	DIO output to 8
+asn=2260 	id=7   	RPL	parent switch: 1 -> 8
+asn=2260 	id=7   	Node	remove the default route
+asn=2260 	id=7   	Node	add the default route via 8
+asn=2260 	id=7   	TSCH	Orchestra: new time source 8
+asn=2260 	id=7   	TSCH	Orchestra: storing mode: remove uc cell to 1, timeslot=1
+asn=2260 	id=7   	TSCH	Orchestra: storing mode: add uc cell to 8, timeslot=8
+asn=2261 	id=7   	App	generate a packet, seqnum=12 for=1
+asn=2261 	id=4   	RPL	DAO output
+asn=2263 	id=1   	RPL	received a DIS from 5
+asn=2263 	id=5   	RPL	warning: no acceptable parent
+asn=2263 	id=6   	Node	tx done to=1 numtx=2 acked=false
+asn=2266 	id=8   	App	generate a packet, seqnum=60 for=1
+asn=2267 	id=4   	App	generate a packet, seqnum=2 for=1
+asn=2272 	id=2   	RPL	DIS output to -1
+asn=2276 	id=6   	App	generate a packet, seqnum=9 for=1
+asn=2277 	id=7   	App	generate a packet, seqnum=13 for=1
+asn=2279 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2279 	id=1   	App	rx app packet seqnum=42 from=8
+asn=2279 	id=8   	Node	tx done to=1 numtx=2 acked=true, remove packet
+asn=2281 	id=7   	RPL	DAO output
+asn=2281 	id=7   	RPL	warning: local repair
+asn=2281 	id=7   	RPL	parent switch: 8 -> null
+asn=2281 	id=7   	Node	remove the default route
+asn=2281 	id=7   	TSCH	Orchestra: new time source null
+asn=2281 	id=7   	TSCH	Orchestra: storing mode: remove uc cell to 8, timeslot=8
+asn=2281 	id=7   	RPL	warning: no acceptable parent
+asn=2281 	id=7   	RPL	warning: no acceptable parent
+asn=2282 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2282 	id=4   	RPL	DAO output
+asn=2282 	id=1   	RPL	DIO output to -1
+asn=2283 	id=8   	RPL	DIO output to 3
+asn=2283 	id=4   	App	generate a packet, seqnum=3 for=1
+asn=2284 	id=8   	App	generate a packet, seqnum=61 for=1
+asn=2294 	id=4   	RPL	DIO input from 1
+asn=2294 	id=5   	RPL	DIO input from 1
+asn=2294 	id=5   	RPL	warning: no acceptable parent
+asn=2294 	id=8   	RPL	DIO input from 1
+asn=2295 	id=-1  	Main	360 seconds, progress 60.01%
+asn=2295 	id=-1  	Main	periodic route processing for all nodes
+asn=2295 	id=1   	TSCH	stats: {"idle_listen":98,"channel_scan":0,"rx_data":17,"rx_data_tx_ack":65,"tx_data":30,"tx_data_rx_ack":4}
+asn=2295 	id=2   	TSCH	stats: {"idle_listen":79,"channel_scan":1196,"rx_data":5,"rx_data_tx_ack":0,"tx_data":8,"tx_data_rx_ack":7}
+asn=2295 	id=3   	TSCH	stats: {"idle_listen":162,"channel_scan":1,"rx_data":21,"rx_data_tx_ack":1,"tx_data":20,"tx_data_rx_ack":15}
+asn=2295 	id=4   	TSCH	stats: {"idle_listen":114,"channel_scan":795,"rx_data":12,"rx_data_tx_ack":0,"tx_data":11,"tx_data_rx_ack":11}
+asn=2295 	id=5   	RPL	warning: no acceptable parent
+asn=2295 	id=5   	TSCH	stats: {"idle_listen":138,"channel_scan":400,"rx_data":11,"rx_data_tx_ack":1,"tx_data":18,"tx_data_rx_ack":18}
+asn=2295 	id=6   	TSCH	stats: {"idle_listen":109,"channel_scan":797,"rx_data":9,"rx_data_tx_ack":0,"tx_data":9,"tx_data_rx_ack":10}
+asn=2295 	id=7   	RPL	warning: no acceptable parent
+asn=2295 	id=7   	TSCH	stats: {"idle_listen":137,"channel_scan":398,"rx_data":17,"rx_data_tx_ack":0,"tx_data":13,"tx_data_rx_ack":12}
+asn=2295 	id=8   	TSCH	stats: {"idle_listen":130,"channel_scan":398,"rx_data":14,"rx_data_tx_ack":4,"tx_data":21,"tx_data_rx_ack":64}
+asn=2295 	id=6   	RPL	DAO output
+asn=2295 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2296 	id=1   	App	rx app packet seqnum=43 from=8
+asn=2296 	id=8   	Node	tx done to=1 numtx=1 acked=true, remove packet
+asn=2300 	id=6   	App	generate a packet, seqnum=10 for=1
+asn=2300 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2300 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2303 	id=4   	RPL	DAO output
+asn=2305 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2307 	id=8   	App	generate a packet, seqnum=62 for=1
+asn=2308 	id=4   	App	generate a packet, seqnum=4 for=1
+asn=2312 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2313 	id=4   	Node	tx done to=1 numtx=1 acked=false
+asn=2313 	id=8   	Node	tx done to=1 numtx=1 acked=false
+asn=2314 	id=6   	App	generate a packet, seqnum=11 for=1
+asn=2315 	id=4   	App	generate a packet, seqnum=5 for=1
+asn=2319 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2319 	id=8   	RPL	DIO output to -1
+asn=2321 	id=8   	App	generate a packet, seqnum=63 for=1
+asn=2321 	id=8   	App	dropping app packet seqnum=63 for=1 to=1: queue full
+asn=2323 	id=4   	RPL	DAO output
+asn=2323 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2324 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2325 	id=6   	RPL	DAO output
+asn=2325 	id=6   	RPL	parent switch: 8 -> 1
+asn=2325 	id=6   	Node	remove the default route
+asn=2325 	id=6   	Node	add the default route via 1
+asn=2325 	id=6   	TSCH	Orchestra: new time source 1
+asn=2325 	id=6   	TSCH	Orchestra: storing mode: remove uc cell to 8, timeslot=8
+asn=2325 	id=6   	TSCH	Orchestra: storing mode: add uc cell to 1, timeslot=1
+asn=2325 	id=6   	RPL	warning: local repair
+asn=2325 	id=6   	RPL	parent switch: 1 -> null
+asn=2325 	id=6   	Node	remove the default route
+asn=2325 	id=6   	TSCH	Orchestra: new time source null
+asn=2325 	id=6   	TSCH	Orchestra: storing mode: remove uc cell to 1, timeslot=1
+asn=2325 	id=6   	RPL	warning: no acceptable parent
+asn=2325 	id=6   	RPL	warning: no acceptable parent
+asn=2325 	id=1   	RPL	DIO input from 8
+asn=2325 	id=2   	RPL	DIO input from 8
+asn=2325 	id=3   	RPL	DIO input from 8
+asn=2325 	id=4   	RPL	DIO input from 8
+asn=2325 	id=5   	RPL	DIO input from 8
+asn=2325 	id=5   	RPL	DIO output to 8
+asn=2325 	id=6   	RPL	DIO input from 8
+asn=2325 	id=6   	RPL	warning: no acceptable parent
+asn=2325 	id=7   	RPL	DIO input from 8
+asn=2325 	id=7   	RPL	DIO output to 8
+asn=2331 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2335 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2336 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2338 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2339 	id=3   	RPL	DIS output to -1
+asn=2340 	id=6   	RPL	DAO output
+asn=2340 	id=6   	RPL	warning: no acceptable parent
+asn=2340 	id=6   	RPL	warning: dao_output: no target, skip sending DAO
+asn=2341 	id=8   	App	generate a packet, seqnum=64 for=1
+asn=2341 	id=8   	App	dropping app packet seqnum=64 for=1 to=1: queue full
+asn=2342 	id=3   	RPL	DIO output to 8
+asn=2342 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2343 	id=5   	RPL	DIS output to -1
+asn=2345 	id=1   	RPL	DIO output to -1
+asn=2348 	id=4   	App	generate a packet, seqnum=6 for=1
+asn=2350 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2351 	id=4   	RPL	DAO output
+asn=2351 	id=4   	RPL	warning: local repair
+asn=2351 	id=4   	RPL	parent switch: 1 -> null
+asn=2351 	id=4   	Node	remove the default route
+asn=2351 	id=4   	TSCH	Orchestra: new time source null
+asn=2351 	id=4   	TSCH	Orchestra: storing mode: remove uc cell to 1, timeslot=1
+asn=2351 	id=4   	RPL	warning: no acceptable parent
+asn=2351 	id=4   	RPL	warning: no acceptable parent
+asn=2355 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2356 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2356 	id=2   	Node	tx done to=8 numtx=5 acked=false
+asn=2356 	id=8   	Node	tx done to=3 numtx=7 acked=false
+asn=2357 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2359 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2362 	id=6   	RPL	DAO output
+asn=2362 	id=6   	RPL	warning: no acceptable parent
+asn=2362 	id=6   	RPL	warning: dao_output: no target, skip sending DAO
+asn=2363 	id=8   	App	generate a packet, seqnum=65 for=1
+asn=2363 	id=8   	App	dropping app packet seqnum=65 for=1 to=1: queue full
+asn=2363 	id=8   	RPL	warning: no acceptable parent
+asn=2363 	id=8   	RPL	parent switch: 1 -> null
+asn=2363 	id=8   	Node	remove the default route
+asn=2363 	id=8   	TSCH	Orchestra: new time source null
+asn=2363 	id=8   	TSCH	Orchestra: storing mode: remove uc cell to 1, timeslot=1
+asn=2368 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2370 	id=4   	RPL	DIS output to -1
+asn=2370 	id=4   	RPL	warning: no acceptable parent
+asn=2370 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2376 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2378 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2378 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2379 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2381 	id=2   	RPL	DIS output to -1
+asn=2384 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2385 	id=6   	RPL	DAO output
+asn=2385 	id=6   	RPL	warning: no acceptable parent
+asn=2385 	id=6   	RPL	warning: dao_output: no target, skip sending DAO
+asn=2386 	id=6   	Node	add neighbor id=4
+asn=2386 	id=4   	RPL	warning: no acceptable parent
+asn=2387 	id=4   	RPL	warning: no acceptable parent
+asn=2387 	id=5   	Node	tx done to=8 numtx=1 acked=false
+asn=2388 	id=6   	RPL	warning: no acceptable parent
+asn=2389 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2390 	id=8   	RPL	warning: no acceptable parent
+asn=2392 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2396 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2396 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2396 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2397 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2399 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2405 	id=6   	RPL	DAO output
+asn=2405 	id=6   	RPL	warning: no acceptable parent
+asn=2405 	id=6   	RPL	warning: dao_output: no target, skip sending DAO
+asn=2406 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2409 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2417 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2418 	id=1   	RPL	DIO input from 6
+asn=2418 	id=6   	Node	tx done to=1 numtx=3 acked=true, remove packet
+asn=2418 	id=6   	RPL	warning: no acceptable parent
+asn=2419 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2419 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2421 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2425 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2425 	id=6   	RPL	DAO output
+asn=2425 	id=6   	RPL	warning: no acceptable parent
+asn=2425 	id=6   	RPL	warning: dao_output: no target, skip sending DAO
+asn=2425 	id=6   	RPL	warning: local repair
+asn=2425 	id=6   	RPL	warning: no acceptable parent
+asn=2425 	id=6   	RPL	warning: no acceptable parent
+asn=2426 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2429 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2439 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2443 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2443 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2443 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2447 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2448 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2450 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2455 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2457 	id=5   	RPL	DIS output to -1
+asn=2459 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2462 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2463 	id=7   	RPL	DIS output to -1
+asn=2465 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2466 	id=1   	RPL	DIO output to -1
+asn=2469 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2469 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2471 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2476 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2477 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2477 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2480 	id=2   	Node	add neighbor id=1
+asn=2480 	id=2   	RPL	DIO input from 1
+asn=2480 	id=8   	RPL	DIO input from 1
+asn=2480 	id=8   	RPL	warning: no acceptable parent
+asn=2483 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2486 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2488 	id=3   	RPL	DIS output to -1
+asn=2490 	id=6   	RPL	DIS output to -1
+asn=2490 	id=6   	RPL	warning: no acceptable parent
+asn=2490 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2492 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2492 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2493 	id=2   	RPL	DIS output to -1
+asn=2494 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2494 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2501 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2506 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2510 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2511 	id=5   	Node	tx done to=8 numtx=2 acked=false
+asn=2511 	id=6   	RPL	warning: no acceptable parent
+asn=2514 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2514 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2514 	id=8   	RPL	DIS output to -1
+asn=2514 	id=8   	RPL	warning: no acceptable parent
+asn=2514 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2516 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2523 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2524 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2526 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2535 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2537 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2538 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2541 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2542 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2542 	id=1   	RPL	received a DIS from 8
+asn=2542 	id=2   	RPL	received a DIS from 8
+asn=2542 	id=3   	RPL	received a DIS from 8
+asn=2542 	id=4   	RPL	received a DIS from 8
+asn=2542 	id=5   	RPL	received a DIS from 8
+asn=2542 	id=6   	RPL	received a DIS from 8
+asn=2542 	id=7   	RPL	received a DIS from 8
+asn=2542 	id=8   	RPL	warning: no acceptable parent
+asn=2545 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2546 	id=4   	RPL	DIS output to -1
+asn=2546 	id=4   	RPL	warning: no acceptable parent
+asn=2550 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2555 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2559 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2561 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2564 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2564 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2567 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2567 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2568 	id=1   	RPL	DIO output to -1
+asn=2572 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2573 	id=5   	RPL	DIO input from 1
+asn=2573 	id=7   	RPL	DIO input from 1
+asn=2573 	id=4   	RPL	warning: no acceptable parent
+asn=2574 	id=2   	RPL	DIO output to 8
+asn=2575 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2578 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2580 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2584 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2585 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2590 	id=5   	RPL	DIS output to -1
+asn=2590 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2591 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2592 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2594 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2595 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2601 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2603 	id=2   	RPL	DIS output to -1
+asn=2604 	id=1   	RPL	received a DIS from 2
+asn=2604 	id=3   	RPL	received a DIS from 2
+asn=2604 	id=4   	RPL	received a DIS from 2
+asn=2604 	id=8   	RPL	received a DIS from 2
+asn=2605 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2608 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2611 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2618 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2622 	id=1   	RPL	DIO output to -1
+asn=2624 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2625 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2627 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2627 	id=8   	RPL	DIS output to -1
+asn=2627 	id=8   	RPL	warning: no acceptable parent
+asn=2628 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2629 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2634 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2635 	id=2   	Node	tx done to=8 numtx=6 acked=false
+asn=2635 	id=6   	Node	tx done to=8 numtx=1 acked=false
+asn=2635 	id=8   	RPL	warning: no acceptable parent
+asn=2636 	id=6   	RPL	DIS output to -1
+asn=2636 	id=6   	RPL	warning: no acceptable parent
+asn=2640 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2640 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2642 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2644 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2645 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2645 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2650 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2651 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2651 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2652 	id=7   	RPL	DIS output to -1
+asn=2659 	id=4   	RPL	DIS output to -1
+asn=2659 	id=4   	RPL	warning: no acceptable parent
+asn=2661 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2664 	id=8   	RPL	DIO output to 3
+asn=2664 	id=8   	RPL	warning: no acceptable parent
+asn=2664 	id=3   	RPL	DIS output to -1
+asn=2666 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2666 	id=2   	RPL	received a DIS from 3
+asn=2666 	id=4   	RPL	warning: no acceptable parent
+asn=2666 	id=5   	Node	tx done to=8 numtx=3 acked=false
+asn=2666 	id=6   	RPL	warning: no acceptable parent
+asn=2669 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2672 	id=7   	RPL	DIO output to 8
+asn=2673 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2673 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2673 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2674 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2677 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2677 	id=-1  	Main	420 seconds, progress 70.00%
+asn=2677 	id=-1  	Main	periodic route processing for all nodes
+asn=2677 	id=1   	TSCH	stats: {"idle_listen":123,"channel_scan":0,"rx_data":20,"rx_data_tx_ack":67,"tx_data":35,"tx_data_rx_ack":4}
+asn=2677 	id=2   	TSCH	stats: {"idle_listen":104,"channel_scan":1196,"rx_data":10,"rx_data_tx_ack":0,"tx_data":11,"tx_data_rx_ack":9}
+asn=2677 	id=3   	TSCH	stats: {"idle_listen":189,"channel_scan":1,"rx_data":25,"rx_data_tx_ack":1,"tx_data":23,"tx_data_rx_ack":15}
+asn=2677 	id=4   	RPL	warning: no acceptable parent
+asn=2677 	id=4   	TSCH	stats: {"idle_listen":142,"channel_scan":795,"rx_data":15,"rx_data_tx_ack":0,"tx_data":15,"tx_data_rx_ack":12}
+asn=2677 	id=5   	TSCH	stats: {"idle_listen":163,"channel_scan":400,"rx_data":15,"rx_data_tx_ack":1,"tx_data":21,"tx_data_rx_ack":21}
+asn=2677 	id=6   	RPL	warning: no acceptable parent
+asn=2677 	id=6   	TSCH	stats: {"idle_listen":137,"channel_scan":797,"rx_data":11,"rx_data_tx_ack":0,"tx_data":12,"tx_data_rx_ack":12}
+asn=2677 	id=7   	TSCH	stats: {"idle_listen":165,"channel_scan":398,"rx_data":21,"rx_data_tx_ack":0,"tx_data":16,"tx_data_rx_ack":12}
+asn=2677 	id=8   	RPL	warning: no acceptable parent
+asn=2677 	id=8   	TSCH	stats: {"idle_listen":157,"channel_scan":398,"rx_data":17,"rx_data_tx_ack":4,"tx_data":25,"tx_data_rx_ack":67}
+asn=2681 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2682 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2688 	id=1   	RPL	DIO output to -1
+asn=2690 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2694 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2695 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2697 	id=2   	RPL	DIO input from 1
+asn=2697 	id=3   	RPL	DIO input from 1
+asn=2697 	id=4   	RPL	DIO input from 1
+asn=2697 	id=4   	RPL	parent switch: null -> 1
+asn=2697 	id=4   	Node	add the default route via 1
+asn=2697 	id=4   	TSCH	Orchestra: new time source 1
+asn=2697 	id=4   	TSCH	Orchestra: storing mode: add uc cell to 1, timeslot=1
+asn=2697 	id=5   	RPL	DIO input from 1
+asn=2697 	id=6   	RPL	DIO input from 1
+asn=2697 	id=6   	RPL	DIO output to 1
+asn=2697 	id=7   	RPL	DIO input from 1
+asn=2697 	id=8   	RPL	DIO input from 1
+asn=2697 	id=8   	RPL	warning: no acceptable parent
+asn=2700 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2701 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2701 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2705 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2711 	id=2   	RPL	DIS output to -1
+asn=2713 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2717 	id=4   	RPL	DAO output
+asn=2717 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2720 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2720 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2727 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2728 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2728 	id=1   	RPL	received a DIS from 2
+asn=2728 	id=4   	RPL	received a DIS from 2
+asn=2728 	id=6   	Node	tx done to=1 numtx=1 acked=false
+asn=2729 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2736 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2737 	id=4   	RPL	DAO output
+asn=2744 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2746 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2749 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2750 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2752 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2754 	id=1   	RPL	DIO output to -1
+asn=2755 	id=5   	RPL	DIO output to 8
+asn=2757 	id=4   	RPL	DAO output
+asn=2758 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2758 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2759 	id=2   	Node	tx done to=8 numtx=7 acked=false
+asn=2759 	id=3   	Node	tx done to=8 numtx=5 acked=false
+asn=2763 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2766 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2766 	id=3   	RPL	DIS output to -1
+asn=2768 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2774 	id=4   	App	generate a packet, seqnum=7 for=1
+asn=2776 	id=5   	RPL	DIS output to -1
+asn=2777 	id=4   	RPL	DAO output
+asn=2782 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2783 	id=4   	App	generate a packet, seqnum=8 for=1
+asn=2783 	id=4   	App	dropping app packet seqnum=8 for=1 to=1: queue full
+asn=2783 	id=4   	RPL	warning: no acceptable parent
+asn=2783 	id=4   	RPL	parent switch: 1 -> null
+asn=2783 	id=4   	Node	remove the default route
+asn=2783 	id=4   	TSCH	Orchestra: new time source null
+asn=2783 	id=4   	TSCH	Orchestra: storing mode: remove uc cell to 1, timeslot=1
+asn=2783 	id=4   	RPL	warning: no acceptable parent
+asn=2786 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2786 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2786 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2787 	id=8   	RPL	DIS output to -1
+asn=2787 	id=8   	RPL	warning: no acceptable parent
+asn=2787 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2790 	id=6   	RPL	received a DIS from 3
+asn=2790 	id=8   	RPL	warning: no acceptable parent
+asn=2791 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2791 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2794 	id=7   	RPL	DIS output to -1
+asn=2796 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2800 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2803 	id=4   	RPL	DAO output
+asn=2803 	id=4   	RPL	warning: no acceptable parent
+asn=2803 	id=4   	RPL	warning: dao_output: no target, skip sending DAO
+asn=2803 	id=4   	RPL	warning: local repair
+asn=2803 	id=4   	RPL	warning: no acceptable parent
+asn=2803 	id=4   	RPL	warning: no acceptable parent
+asn=2803 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2806 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2811 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2811 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2812 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2817 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2818 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2819 	id=1   	RPL	DIO output to -1
+asn=2821 	id=8   	RPL	DIO input from 1
+asn=2821 	id=8   	RPL	warning: no acceptable parent
+asn=2822 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2824 	id=6   	RPL	DIS output to -1
+asn=2824 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2827 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2828 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2832 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2835 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2844 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2847 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2850 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2850 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2852 	id=1   	RPL	received a DIS from 6
+asn=2852 	id=2   	Node	add neighbor id=6
+asn=2852 	id=2   	RPL	received a DIS from 6
+asn=2852 	id=3   	RPL	received a DIS from 6
+asn=2852 	id=4   	RPL	received a DIS from 6
+asn=2852 	id=5   	RPL	received a DIS from 6
+asn=2852 	id=7   	RPL	received a DIS from 6
+asn=2852 	id=8   	RPL	received a DIS from 6
+asn=2853 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2853 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2858 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2866 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2867 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2868 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2869 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2870 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2871 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2873 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2874 	id=1   	RPL	DIO output to -1
+asn=2875 	id=2   	RPL	DIS output to -1
+asn=2880 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2881 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2881 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2883 	id=6   	Node	tx done to=1 numtx=2 acked=false
+asn=2884 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2884 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2886 	id=3   	RPL	DIO output to 8
+asn=2894 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2900 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2900 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2901 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2902 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2908 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2911 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2914 	id=8   	RPL	DIO input from 2
+asn=2914 	id=8   	RPL	warning: no acceptable parent
+asn=2914 	id=2   	Node	tx done to=8 numtx=8 acked=true, remove packet
+asn=2914 	id=2   	RPL	DIO output to 1
+asn=2914 	id=2   	RPL	parent switch: null -> 8
+asn=2914 	id=2   	Node	add the default route via 8
+asn=2914 	id=2   	TSCH	Orchestra: new time source 8
+asn=2914 	id=2   	TSCH	Orchestra: storing mode: remove uc cell to 5, timeslot=5
+asn=2914 	id=2   	TSCH	Orchestra: storing mode: add uc cell to 8, timeslot=8
+asn=2916 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2920 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2921 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2921 	id=2   	App	generate a packet, seqnum=1 for=1
+asn=2922 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2922 	id=4   	RPL	DIS output to -1
+asn=2922 	id=4   	RPL	warning: no acceptable parent
+asn=2929 	id=2   	RPL	DAO output
+asn=2931 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2931 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2931 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2933 	id=1   	RPL	DIO output to -1
+asn=2936 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2936 	id=3   	RPL	DIS output to -1
+asn=2937 	id=5   	RPL	DIS output to -1
+asn=2941 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2945 	id=2   	Node	tx done to=8 numtx=1 acked=false
+asn=2945 	id=4   	RPL	warning: no acceptable parent
+asn=2945 	id=6   	Node	tx done to=1 numtx=3 acked=false
+asn=2946 	id=3   	RPL	warning: leaving DAG
+asn=2946 	id=3   	RPL	DAO output
+asn=2946 	id=3   	RPL	warning: dao_output: no target, skip sending DAO
+asn=2946 	id=3   	RPL	warning: no acceptable parent
+asn=2946 	id=2   	RPL	DAO output
+asn=2946 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2947 	id=7   	RPL	DIS output to -1
+asn=2949 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2949 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2951 	id=2   	App	generate a packet, seqnum=2 for=1
+asn=2958 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2960 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2963 	id=8   	RPL	DIS output to -1
+asn=2963 	id=8   	RPL	warning: no acceptable parent
+asn=2967 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2968 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2968 	id=2   	RPL	DAO output
+asn=2970 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2971 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2974 	id=2   	App	generate a packet, seqnum=3 for=1
+asn=2976 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2976 	id=2   	Node	tx done to=1 numtx=1 acked=false
+asn=2976 	id=8   	RPL	warning: no acceptable parent
+asn=2980 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2985 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2987 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2990 	id=2   	App	generate a packet, seqnum=4 for=1
+asn=2991 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2993 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2994 	id=2   	RPL	DAO output
+asn=2994 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2996 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2997 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=2999 	id=6   	RPL	DIS output to -1
+asn=3003 	id=2   	App	generate a packet, seqnum=5 for=1
+asn=3006 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3007 	id=8   	RPL	DIO input from 2
+asn=3007 	id=8   	RPL	warning: no acceptable parent
+asn=3007 	id=2   	Node	tx done to=8 numtx=2 acked=true, remove packet
+asn=3007 	id=7   	Node	tx done to=8 numtx=6 acked=false
+asn=3011 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3011 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3013 	id=2   	RPL	DAO output
+asn=3013 	id=2   	RPL	warning: local repair
+asn=3013 	id=2   	RPL	parent switch: 8 -> null
+asn=3013 	id=2   	Node	remove the default route
+asn=3013 	id=2   	TSCH	Orchestra: new time source null
+asn=3013 	id=2   	TSCH	Orchestra: storing mode: remove uc cell to 8, timeslot=8
+asn=3013 	id=2   	RPL	warning: no acceptable parent
+asn=3013 	id=2   	RPL	warning: no acceptable parent
+asn=3018 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3022 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3022 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3024 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3024 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3026 	id=7   	RPL	DIO output to 8
+asn=3027 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3034 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3038 	id=1   	RPL	DIO output to -1
+asn=3038 	id=5   	RPL	DIO input from 1
+asn=3038 	id=6   	RPL	DIO input from 1
+asn=3038 	id=2   	Node	tx done to=8 numtx=1 acked=false
+asn=3042 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3045 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3046 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3048 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3049 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3050 	id=3   	RPL	DIS output to -1
+asn=3052 	id=2   	RPL	DIS output to -1
+asn=3052 	id=2   	RPL	warning: no acceptable parent
+asn=3052 	id=4   	RPL	DIS output to -1
+asn=3052 	id=4   	RPL	warning: no acceptable parent
+asn=3052 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3055 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3056 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3057 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3059 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3059 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3060 	id=-1  	Main	480 seconds, progress 80.02%
+asn=3060 	id=-1  	Main	periodic route processing for all nodes
+asn=3060 	id=1   	TSCH	stats: {"idle_listen":147,"channel_scan":0,"rx_data":23,"rx_data_tx_ack":67,"tx_data":42,"tx_data_rx_ack":4}
+asn=3060 	id=2   	RPL	warning: no acceptable parent
+asn=3060 	id=2   	TSCH	stats: {"idle_listen":128,"channel_scan":1196,"rx_data":12,"rx_data_tx_ack":0,"tx_data":13,"tx_data_rx_ack":15}
+asn=3060 	id=3   	TSCH	stats: {"idle_listen":216,"channel_scan":1,"rx_data":29,"rx_data_tx_ack":1,"tx_data":25,"tx_data_rx_ack":16}
+asn=3060 	id=4   	RPL	warning: no acceptable parent
+asn=3060 	id=4   	TSCH	stats: {"idle_listen":171,"channel_scan":795,"rx_data":19,"rx_data_tx_ack":0,"tx_data":17,"tx_data_rx_ack":12}
+asn=3060 	id=5   	TSCH	stats: {"idle_listen":190,"channel_scan":400,"rx_data":19,"rx_data_tx_ack":1,"tx_data":23,"tx_data_rx_ack":21}
+asn=3060 	id=6   	TSCH	stats: {"idle_listen":161,"channel_scan":797,"rx_data":16,"rx_data_tx_ack":0,"tx_data":14,"tx_data_rx_ack":15}
+asn=3060 	id=7   	TSCH	stats: {"idle_listen":192,"channel_scan":398,"rx_data":24,"rx_data_tx_ack":0,"tx_data":18,"tx_data_rx_ack":13}
+asn=3060 	id=8   	RPL	warning: no acceptable parent
+asn=3060 	id=8   	TSCH	stats: {"idle_listen":184,"channel_scan":398,"rx_data":20,"rx_data_tx_ack":6,"tx_data":27,"tx_data_rx_ack":67}
+asn=3062 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3066 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3066 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3069 	id=1   	RPL	received a DIS from 2
+asn=3069 	id=2   	RPL	warning: no acceptable parent
+asn=3069 	id=4   	RPL	warning: no acceptable parent
+asn=3074 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3075 	id=8   	RPL	DIS output to -1
+asn=3075 	id=8   	RPL	warning: no acceptable parent
+asn=3076 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3078 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3079 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3086 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3086 	id=1   	RPL	DIO output to -1
+asn=3088 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3090 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3097 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3098 	id=6   	RPL	DIS output to -1
+asn=3100 	id=2   	Node	tx done to=8 numtx=2 acked=false
+asn=3100 	id=8   	RPL	warning: no acceptable parent
+asn=3101 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3102 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3107 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3108 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3109 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3110 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3112 	id=8   	RPL	DIO output to 3
+asn=3112 	id=8   	RPL	warning: no acceptable parent
+asn=3114 	id=5   	RPL	DIO output to 8
+asn=3115 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3115 	id=5   	RPL	DIS output to -1
+asn=3119 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3123 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3125 	id=7   	RPL	DIS output to -1
+asn=3126 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3131 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3131 	id=2   	Node	tx done to=1 numtx=2 acked=false
+asn=3131 	id=8   	Node	tx done to=3 numtx=8 acked=false, remove packet
+asn=3131 	id=8   	RPL	warning: no acceptable parent
+asn=3133 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3133 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3133 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3138 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3140 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3142 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3142 	id=1   	RPL	DIO output to -1
+asn=3145 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3148 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3151 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3155 	id=3   	RPL	DIS output to -1
+asn=3158 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3160 	id=2   	RPL	DIS output to -1
+asn=3160 	id=2   	RPL	warning: no acceptable parent
+asn=3161 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3162 	id=2   	RPL	warning: no acceptable parent
+asn=3162 	id=5   	Node	tx done to=8 numtx=4 acked=false
+asn=3166 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3169 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3169 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3170 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3175 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3178 	id=2   	RPL	warning: no acceptable parent
+asn=3180 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3182 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3184 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3184 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3186 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3190 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3190 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3195 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3202 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3202 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3202 	id=4   	RPL	DIS output to -1
+asn=3202 	id=4   	RPL	warning: no acceptable parent
+asn=3206 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3212 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3214 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3216 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3218 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3218 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3224 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3224 	id=1   	RPL	DIO input from 2
+asn=3224 	id=2   	Node	tx done to=1 numtx=3 acked=true, remove packet
+asn=3224 	id=2   	RPL	warning: no acceptable parent
+asn=3224 	id=4   	RPL	warning: no acceptable parent
+asn=3227 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3228 	id=6   	RPL	DIO output to 1
+asn=3229 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3231 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3234 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3235 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3237 	id=8   	RPL	DIS output to -1
+asn=3237 	id=8   	RPL	warning: no acceptable parent
+asn=3239 	id=7   	RPL	DIS output to -1
+asn=3247 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3247 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3248 	id=5   	RPL	DIS output to -1
+asn=3250 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3252 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3254 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3255 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3255 	id=2   	Node	tx done to=8 numtx=3 acked=false
+asn=3255 	id=6   	Node	tx done to=8 numtx=2 acked=false
+asn=3255 	id=8   	RPL	warning: no acceptable parent
+asn=3256 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3260 	id=5   	RPL	warning: leaving DAG
+asn=3260 	id=5   	RPL	DAO output
+asn=3260 	id=5   	RPL	warning: dao_output: no target, skip sending DAO
+asn=3260 	id=5   	RPL	warning: no acceptable parent
+asn=3260 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3261 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3261 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3264 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3267 	id=6   	RPL	DIS output to -1
+asn=3268 	id=1   	RPL	DIO output to -1
+asn=3272 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3273 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3281 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3286 	id=4   	RPL	DIO input from 1
+asn=3286 	id=4   	RPL	warning: no acceptable parent
+asn=3287 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3287 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3290 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3290 	id=2   	RPL	DIS output to -1
+asn=3290 	id=2   	RPL	warning: no acceptable parent
+asn=3293 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3293 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3294 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3294 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3295 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3299 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3304 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3306 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3309 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3311 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3313 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3317 	id=1   	RPL	received a DIS from 2
+asn=3317 	id=4   	RPL	received a DIS from 2
+asn=3317 	id=8   	RPL	received a DIS from 2
+asn=3317 	id=2   	RPL	warning: no acceptable parent
+asn=3317 	id=6   	Node	tx done to=1 numtx=4 acked=false
+asn=3321 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3323 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3325 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3326 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3332 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3333 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3334 	id=3   	RPL	DIS output to -1
+asn=3337 	id=1   	RPL	DIO output to -1
+asn=3340 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3342 	id=7   	RPL	DIO output to 8
+asn=3343 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3344 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3344 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3345 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3346 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3348 	id=4   	RPL	DIS output to -1
+asn=3348 	id=4   	RPL	warning: no acceptable parent
+asn=3348 	id=4   	RPL	warning: no acceptable parent
+asn=3354 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3360 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3361 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3365 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3366 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3367 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3368 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3370 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3379 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3382 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3386 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3386 	id=1   	RPL	DIO output to -1
+asn=3389 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3389 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3390 	id=5   	RPL	DIS output to -1
+asn=3390 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3391 	id=2   	RPL	DIS output to -1
+asn=3391 	id=2   	RPL	warning: no acceptable parent
+asn=3395 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3400 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3403 	id=7   	RPL	DIS output to -1
+asn=3404 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3405 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3405 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3406 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3408 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3409 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3410 	id=2   	RPL	warning: no acceptable parent
+asn=3410 	id=3   	Node	tx done to=8 numtx=6 acked=false
+asn=3412 	id=8   	RPL	DIS output to -1
+asn=3412 	id=8   	RPL	warning: no acceptable parent
+asn=3416 	id=6   	RPL	DIS output to -1
+asn=3420 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3422 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3424 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3425 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3426 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3428 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3432 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3434 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3435 	id=8   	RPL	DIO output to 2
+asn=3435 	id=8   	RPL	warning: no acceptable parent
+asn=3437 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3441 	id=2   	RPL	received a DIS from 6
+asn=3441 	id=3   	RPL	warning: dis_input: not in an instance yet, discard
+asn=3441 	id=5   	RPL	warning: dis_input: not in an instance yet, discard
+asn=3441 	id=7   	RPL	received a DIS from 6
+asn=3441 	id=8   	RPL	warning: no acceptable parent
+asn=3442 	id=-1  	Main	540 seconds, progress 90.01%
+asn=3442 	id=-1  	Main	periodic route processing for all nodes
+asn=3442 	id=1   	TSCH	stats: {"idle_listen":175,"channel_scan":0,"rx_data":25,"rx_data_tx_ack":68,"tx_data":48,"tx_data_rx_ack":4}
+asn=3442 	id=2   	RPL	warning: no acceptable parent
+asn=3442 	id=2   	TSCH	stats: {"idle_listen":154,"channel_scan":1196,"rx_data":13,"rx_data_tx_ack":0,"tx_data":18,"tx_data_rx_ack":19}
+asn=3442 	id=3   	TSCH	stats: {"idle_listen":244,"channel_scan":1,"rx_data":32,"rx_data_tx_ack":1,"tx_data":28,"tx_data_rx_ack":17}
+asn=3442 	id=4   	RPL	warning: no acceptable parent
+asn=3442 	id=4   	TSCH	stats: {"idle_listen":202,"channel_scan":795,"rx_data":21,"rx_data_tx_ack":0,"tx_data":20,"tx_data_rx_ack":12}
+asn=3442 	id=5   	TSCH	stats: {"idle_listen":219,"channel_scan":400,"rx_data":21,"rx_data_tx_ack":1,"tx_data":26,"tx_data_rx_ack":22}
+asn=3442 	id=6   	TSCH	stats: {"idle_listen":190,"channel_scan":797,"rx_data":17,"rx_data_tx_ack":0,"tx_data":17,"tx_data_rx_ack":17}
+asn=3442 	id=7   	TSCH	stats: {"idle_listen":223,"channel_scan":398,"rx_data":25,"rx_data_tx_ack":0,"tx_data":21,"tx_data_rx_ack":13}
+asn=3442 	id=8   	RPL	warning: no acceptable parent
+asn=3442 	id=8   	TSCH	stats: {"idle_listen":213,"channel_scan":398,"rx_data":21,"rx_data_tx_ack":6,"tx_data":30,"tx_data_rx_ack":68}
+asn=3443 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3446 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3447 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3450 	id=4   	RPL	DIS output to -1
+asn=3450 	id=4   	RPL	warning: no acceptable parent
+asn=3452 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3455 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3458 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3462 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3464 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3467 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3469 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3471 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3471 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3472 	id=2   	Node	tx done to=8 numtx=4 acked=false
+asn=3472 	id=4   	RPL	warning: no acceptable parent
+asn=3472 	id=8   	Node	tx done to=2 numtx=1 acked=false
+asn=3477 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3477 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3480 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3481 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3483 	id=3   	RPL	DIS output to -1
+asn=3485 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3492 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3493 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3495 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3499 	id=2   	RPL	DIS output to -1
+asn=3499 	id=2   	RPL	warning: no acceptable parent
+asn=3501 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3503 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3503 	id=2   	RPL	warning: no acceptable parent
+asn=3505 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3508 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3510 	id=5   	RPL	DIS output to -1
+asn=3512 	id=8   	RPL	DIS output to -1
+asn=3512 	id=8   	RPL	warning: no acceptable parent
+asn=3514 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3514 	id=7   	RPL	DIS output to -1
+asn=3517 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3517 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3519 	id=1   	RPL	DIO output to -1
+asn=3522 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3524 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3528 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3530 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3534 	id=8   	RPL	warning: no acceptable parent
+asn=3535 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3536 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3538 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3544 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3549 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3553 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3555 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3556 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3556 	id=4   	RPL	DIS output to -1
+asn=3556 	id=4   	RPL	warning: no acceptable parent
+asn=3558 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3559 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3560 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3565 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3565 	id=2   	Node	add neighbor id=4
+asn=3565 	id=2   	RPL	received a DIS from 4
+asn=3565 	id=4   	RPL	warning: no acceptable parent
+asn=3565 	id=8   	Node	tx done to=2 numtx=2 acked=false
+asn=3570 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3570 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3572 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3574 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3575 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3578 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3580 	id=6   	RPL	DIS output to -1
+asn=3581 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3585 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3586 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3591 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3596 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3596 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3596 	id=1   	RPL	received a DIS from 6
+asn=3596 	id=2   	RPL	received a DIS from 6
+asn=3596 	id=3   	RPL	warning: dis_input: not in an instance yet, discard
+asn=3596 	id=4   	RPL	received a DIS from 6
+asn=3596 	id=5   	RPL	warning: dis_input: not in an instance yet, discard
+asn=3596 	id=7   	RPL	received a DIS from 6
+asn=3596 	id=8   	RPL	received a DIS from 6
+asn=3601 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3602 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3605 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3609 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3612 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3615 	id=1   	RPL	DIO output to -1
+asn=3619 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3620 	id=3   	RPL	DIS output to -1
+asn=3620 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3620 	id=5   	RPL	DIS output to -1
+asn=3623 	id=2   	RPL	DIS output to -1
+asn=3623 	id=2   	RPL	warning: no acceptable parent
+asn=3624 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3624 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3627 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3627 	id=8   	RPL	DIO input from 1
+asn=3627 	id=8   	RPL	warning: no acceptable parent
+asn=3627 	id=2   	RPL	warning: no acceptable parent
+asn=3631 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3635 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3636 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3636 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3642 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3646 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3647 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3649 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3651 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3654 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3656 	id=7   	RPL	DIS output to -1
+asn=3656 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3658 	id=1   	RPL	received a DIS from 7
+asn=3658 	id=2   	RPL	received a DIS from 7
+asn=3658 	id=3   	RPL	warning: dis_input: not in an instance yet, discard
+asn=3658 	id=4   	RPL	received a DIS from 7
+asn=3658 	id=5   	RPL	warning: dis_input: not in an instance yet, discard
+asn=3658 	id=6   	RPL	received a DIS from 7
+asn=3658 	id=8   	RPL	received a DIS from 7
+asn=3659 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3659 	id=6   	RPL	DIO output to 1
+asn=3662 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3665 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3672 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3672 	id=1   	RPL	DIO output to -1
+asn=3673 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3673 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3676 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3683 	id=8   	RPL	DIS output to -1
+asn=3683 	id=8   	RPL	warning: no acceptable parent
+asn=3683 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3686 	id=6   	RPL	DIS output to -1
+asn=3688 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3688 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3689 	id=8   	RPL	warning: no acceptable parent
+asn=3691 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3693 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3697 	id=4   	RPL	DIS output to -1
+asn=3697 	id=4   	RPL	warning: no acceptable parent
+asn=3698 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3701 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3702 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3704 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3712 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3715 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3717 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3717 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3720 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3720 	id=6   	RPL	received a DIS from 4
+asn=3720 	id=4   	RPL	warning: no acceptable parent
+asn=3720 	id=8   	Node	tx done to=2 numtx=3 acked=false
+asn=3725 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3726 	id=2   	RPL	DIS output to -1
+asn=3726 	id=2   	RPL	warning: no acceptable parent
+asn=3726 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3727 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3727 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3729 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3735 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3738 	id=1   	RPL	DIO output to -1
+asn=3739 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3746 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3747 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3748 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3750 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3751 	id=8   	RPL	DIO input from 1
+asn=3751 	id=8   	RPL	warning: no acceptable parent
+asn=3751 	id=2   	RPL	warning: no acceptable parent
+asn=3752 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3754 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3759 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3760 	id=5   	RPL	DIS output to -1
+asn=3761 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3761 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3766 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3767 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3769 	id=3   	RPL	DIS output to -1
+asn=3772 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3773 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3779 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3782 	id=2   	RPL	received a DIS from 3
+asn=3782 	id=4   	RPL	received a DIS from 3
+asn=3782 	id=6   	RPL	received a DIS from 3
+asn=3785 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3786 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3787 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3793 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3795 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3797 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3797 	id=3   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3798 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3801 	id=4   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3805 	id=5   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3806 	id=8   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3809 	id=2   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3811 	id=6   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3813 	id=5   	Node	tx done to=8 numtx=5 acked=false
+asn=3813 	id=6   	Node	tx done to=8 numtx=3 acked=false
+asn=3817 	id=7   	RPL	DIO output to 8
+asn=3821 	id=7   	App	skipping generation of a packet, for=1,do_generate = false
+asn=3824 	id=-1  	Main	ending simulation at 599.986 seconds
+asn=3824 	id=1   	node	node stats has been reset
+asn=3824 	id=2   	node	node stats has been reset
+asn=3824 	id=3   	node	node stats has been reset
+asn=3824 	id=4   	node	node stats has been reset
+asn=3824 	id=5   	node	node stats has been reset
+asn=3824 	id=6   	node	node stats has been reset
+asn=3824 	id=7   	node	node stats has been reset
+asn=3824 	id=8   	node	node stats has been reset
+asn=3824 	id=-1  	Main	packet stats: PDR=79.032% generated=148 received=49 lost=13 (tx_limit/queue/routing/scheduling/other=0/13/0/0/0)
+asn=3824 	id=-1  	Main	link stats: PAR=46.377% tx=138 acked=64
+asn=3824 	id=-1  	network	network stats has been reset
+asn=3824 	id=-1  	Main	time.timeline.timeslot_switcher.return_current_index()+1 = 01
+asn=3824 	id=-1  	Main	write success
+asn=3824 	id=-1  	Main	simulation completed, results saved at /home/lkw/tsch-sim-history/tsch-sim/examples/mesh/results/energy_consumption_with_time/energy-with-time-156900s-600-8

@@ -1,0 +1,20 @@
+asn=0    	id=-1  	Main	copying configuration file /home/lkw/tsch-sim-history/tsch-sim/examples/mesh/config2.json to output directory /home/lkw/tsch-sim-history/tsch-sim/examples/mesh/results/single_model_diff_packet_period/7200s-10716-37-0/config2.json
+asn=0    	id=-1  	Main	initializing 7200 seconds long simulation...
+asn=0    	id=-1  	network	network stats has been reset
+asn=0    	id=-1  	Main	time.timeline.slot_timings 0.010716,0.010716,0.010716,0.010716,0.010716,0.010716,0.010716,0.010716,0.010716,0.010716,0.010716,0.010716,0.010716,0.010716,0.010716,0.010716,0.010716
+asn=0    	id=-1  	Main	creating 10 "node" nodes...
+asn=0    	id=-1  	Main	starting simulation main loop...
+asn=0    	id=-1  	Main	add network to timeslot switcher
+asn=0    	id=-1  	Main	network = [object Object]
+asn=83987	id=-1  	Main	periodic neighbor processing for all nodes
+asn=167974	id=-1  	Main	periodic neighbor processing for all nodes
+asn=251960	id=-1  	Main	periodic neighbor processing for all nodes
+asn=335947	id=-1  	Main	periodic neighbor processing for all nodes
+asn=419933	id=-1  	Main	periodic neighbor processing for all nodes
+asn=503920	id=-1  	Main	periodic neighbor processing for all nodes
+asn=587906	id=-1  	Main	periodic neighbor processing for all nodes
+asn=671892	id=-1  	Main	ending simulation at 7199.995 seconds
+asn=671892	id=-1  	Main	packet stats: PDR=99.884% generated=1727 received=1726 lost=2 (tx_limit/queue/routing/scheduling/other=2/0/0/0/0)
+asn=671892	id=-1  	Main	link stats: PAR=50.761% tx=4663 acked=2367
+asn=671892	id=-1  	Main	current-consumed=1.811 current-consumed-when-joined=1.811
+asn=671892	id=-1  	Main	simulation completed, results saved at /home/lkw/tsch-sim-history/tsch-sim/examples/mesh/results/single_model_diff_packet_period/7200s-10716-37-0

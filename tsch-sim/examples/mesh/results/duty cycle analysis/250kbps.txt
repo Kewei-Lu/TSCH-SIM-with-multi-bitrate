@@ -1,0 +1,30 @@
+asn=0    	id=-1  	Main	copying configuration file /home/lkw/tsch-sim-history/tsch-sim/examples/mesh/config2.json to output directory /home/lkw/tsch-sim-history/tsch-sim/results/2021-08-03_14-06-21/config2.json
+asn=0    	id=-1  	Main	initializing 7200 seconds long simulation...
+asn=0    	id=-1  	network	network stats has been reset
+asn=0    	id=-1  	Main	time.timeline.slot_timings 0.010716,0.010716,0.010716,0.010716,0.010716,0.010716,0.010716,0.010716,0.010716,0.010716,0.010716,0.010716,0.010716,0.010716,0.010716,0.010716,0.010716
+asn=0    	id=-1  	Main	creating 6 "node" nodes...
+asn=0    	id=-1  	Main	starting simulation main loop...
+asn=0    	id=-1  	Main	add network to timeslot switcher
+asn=0    	id=-1  	Main	network = [object Object]
+asn=335947	id=-1  	Main	periodic neighbor processing for all nodes
+asn=671892	id=-1  	Main	ending simulation at 7199.995 seconds
+asn=671892	id=-1  	Main	detail_tx 0.00008550672994292784,tx=0.00008550672994292784,detail_rx 0.0005555148555337601,rx =0.019859345807324534 
+asn=671892	id=-1  	Main	charge_joined_uc=1284855.305 radio_duty_cycle_joined=1.994 
+asn=671892	id=-1  	Main	detail_tx 0.00012072453378240808,tx=0.00012072453378240809,detail_rx 0.0001795990217948557,rx =0.0202006082820861 
+asn=671892	id=-1  	Main	charge_joined_uc=1332590.408 radio_duty_cycle_joined=2.032 
+asn=671892	id=-1  	Main	detail_tx 0.00011632453052633976,tx=0.00011632453052633976,detail_rx 0.0002103812667964004,rx =0.020212707179928353 
+asn=671892	id=-1  	Main	charge_joined_uc=1331346.851 radio_duty_cycle_joined=2.033 
+asn=671892	id=-1  	Main	detail_tx 0.00011847564322930648,tx=0.0001184756432293065,detail_rx 0.00019522125557776496,rx =0.020206397175258857 
+asn=671892	id=-1  	Main	charge_joined_uc=1331935.904 radio_duty_cycle_joined=2.032 
+asn=671892	id=-1  	Main	detail_tx 0.00014092010428298839,tx=0.00014092010428298839,detail_rx 0.00018555902620534824,rx =0.020200012726089824 
+asn=671892	id=-1  	Main	charge_joined_uc=1332154.072 radio_duty_cycle_joined=2.034 
+asn=671892	id=-1  	Main	detail_tx 0.00013311565406313384,tx=0.00013311565406313384,detail_rx 0.00016989679239283836,rx =0.020193528276846787 
+asn=671892	id=-1  	Main	charge_joined_uc=1332764.942 radio_duty_cycle_joined=2.033 
+asn=671892	id=-1  	Main	packet stats: PDR=100.000% generated=592 received=592 lost=0 (tx_limit/queue/routing/scheduling/other=0/0/0/0/0)
+asn=671892	id=-1  	Main	link stats: PAR=60.392% tx=1020 acked=616
+asn=671892	id=-1  	Main	link stats: tx=1300 rx=2676 tx_unicat=1068,this.stats_mac_acked=904
+asn=671892	id=-1  	Main	current-consumed=1.104 current-consumed-when-joined=1.104
+asn=671892	id=-1  	Main	mac_rx_collision=68,mac_rx = 2676,collision rate =2.5411061285500747 
+asn=671892	id=-1  	Main	duty_cycle_joined_average=2.026333333333333 
+asn=671892	id=-1  	Main	duty_cycle_rx_bc=0.0010462229964429135, duty_cycle_tx_bc=0.0010462229964429135,duty_cycle_rx_uc=0.012779750197947345,duty_cycle_tx_uc=0.010871563600675493,duty_cycle_rx_idle=1.989607120487225
+asn=671892	id=-1  	Main	simulation completed, results saved at /home/lkw/tsch-sim-history/tsch-sim/results/2021-08-03_14-06-21

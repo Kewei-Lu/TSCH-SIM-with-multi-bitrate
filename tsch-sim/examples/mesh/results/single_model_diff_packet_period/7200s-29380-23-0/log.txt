@@ -1,0 +1,71 @@
+asn=0    	id=-1  	Main	copying configuration file /home/lkw/tsch-sim-history/tsch-sim/examples/mesh/config2.json to output directory /home/lkw/tsch-sim-history/tsch-sim/examples/mesh/results/single_model_diff_packet_period/7200s-29380-23-0/config2.json
+asn=0    	id=-1  	Main	initializing 3600 seconds long simulation...
+asn=0    	id=-1  	network	network stats has been reset
+asn=0    	id=-1  	Main	time.timeline.slot_timings 0.02938,0.02938,0.02938,0.02938,0.02938,0.02938,0.02938,0.02938,0.02938,0.02938,0.02938,0.02938,0.02938,0.02938,0.02938,0.02938,0.02938
+asn=0    	id=-1  	Main	creating 6 "node" nodes...
+asn=0    	id=-1  	Main	starting simulation main loop...
+asn=0    	id=-1  	Main	add network to timeslot switcher
+asn=0    	id=-1  	Main	network = [object Object]
+asn=20000	id=-1  	User	node id = 1, no parent
+asn=20000	id=-1  	User	node id = 2, parent = 1
+asn=20000	id=-1  	User	node id = 3, parent = 1
+asn=20000	id=-1  	User	node id = 4, parent = 1
+asn=20000	id=-1  	User	node id = 5, parent = 1
+asn=20000	id=-1  	User	node id = 6, parent = 1
+asn=37000	id=-1  	User	node id = 1, no parent
+asn=37000	id=-1  	User	node id = 2, parent = 1
+asn=37000	id=-1  	User	node id = 3, parent = 1
+asn=37000	id=-1  	User	node id = 4, parent = 1
+asn=37000	id=-1  	User	node id = 5, parent = 1
+asn=37000	id=-1  	User	node id = 6, parent = 1
+asn=54000	id=-1  	User	node id = 1, no parent
+asn=54000	id=-1  	User	node id = 2, parent = 1
+asn=54000	id=-1  	User	node id = 3, parent = 1
+asn=54000	id=-1  	User	node id = 4, parent = 1
+asn=54000	id=-1  	User	node id = 5, parent = 1
+asn=54000	id=-1  	User	node id = 6, parent = 1
+asn=71000	id=-1  	User	node id = 1, no parent
+asn=71000	id=-1  	User	node id = 2, parent = 1
+asn=71000	id=-1  	User	node id = 3, parent = 1
+asn=71000	id=-1  	User	node id = 4, parent = 1
+asn=71000	id=-1  	User	node id = 5, parent = 1
+asn=71000	id=-1  	User	node id = 6, parent = 1
+asn=88000	id=-1  	User	node id = 1, no parent
+asn=88000	id=-1  	User	node id = 2, parent = 1
+asn=88000	id=-1  	User	node id = 3, parent = 1
+asn=88000	id=-1  	User	node id = 4, parent = 1
+asn=88000	id=-1  	User	node id = 5, parent = 1
+asn=88000	id=-1  	User	node id = 6, parent = 1
+asn=105000	id=-1  	User	node id = 1, no parent
+asn=105000	id=-1  	User	node id = 2, parent = 1
+asn=105000	id=-1  	User	node id = 3, parent = 1
+asn=105000	id=-1  	User	node id = 4, parent = 1
+asn=105000	id=-1  	User	node id = 5, parent = 1
+asn=105000	id=-1  	User	node id = 6, parent = 1
+asn=122000	id=-1  	User	node id = 1, no parent
+asn=122000	id=-1  	User	node id = 2, parent = 1
+asn=122000	id=-1  	User	node id = 3, parent = 1
+asn=122000	id=-1  	User	node id = 4, parent = 1
+asn=122000	id=-1  	User	node id = 5, parent = 1
+asn=122000	id=-1  	User	node id = 6, parent = 1
+asn=122532	id=-1  	Main	ending simulation at 3599.990 seconds
+asn=122532	id=-1  	Main	detail_tx 0.0009708026535287563,tx=0.0009708026535287563,detail_rx 0.005390803623760475,rx =0.013667492913390684 
+asn=122532	id=-1  	Main	charge_joined_uc=216684.205 radio_duty_cycle_joined=1.464 
+asn=122532	id=-1  	Main	detail_tx 0.0012308478087636944,tx=0.0012308478087636944,detail_rx 0.0010902585355972412,rx =0.010236950203235297 
+asn=122532	id=-1  	Main	charge_joined_uc=239460.918 radio_duty_cycle_joined=1.147 
+asn=122532	id=-1  	Main	detail_tx 0.0012856479585508554,tx=0.0012856479585508554,detail_rx 0.0011238586274375443,rx =0.0102705502950756 
+asn=122532	id=-1  	Main	charge_joined_uc=239460.918 radio_duty_cycle_joined=1.156 
+asn=122532	id=-1  	Main	detail_tx 0.0012631145636262076,tx=0.0012631145636262076,detail_rx 0.001068080697200004,rx =0.010227272399004839 
+asn=122532	id=-1  	Main	charge_joined_uc=239788.169 radio_duty_cycle_joined=1.149 
+asn=122532	id=-1  	Main	detail_tx 0.0012577367711491222,tx=0.0012577367711491222,detail_rx 0.0010669695830518458,rx =0.01022116127118997 
+asn=122532	id=-1  	Main	charge_joined_uc=239657.269 radio_duty_cycle_joined=1.148 
+asn=122532	id=-1  	Main	detail_tx 0.001279736831282654,tx=0.001279736831282654,detail_rx 0.0010610584557836445,rx =0.01021441680831065 
+asn=122532	id=-1  	Main	charge_joined_uc=239635.452 radio_duty_cycle_joined=1.149 
+asn=122532	id=-1  	Main	packet stats: PDR=100.000% generated=759 received=759 lost=0 (tx_limit/queue/routing/scheduling/other=0/0/0/0/0)
+asn=122532	id=-1  	Main	link stats: PAR=74.566% tx=1038 acked=774
+asn=122532	id=-1  	Main	link stats: tx=1225 rx=1909 tx_unicat=1074,this.stats_mac_acked=949
+asn=122532	id=-1  	Main	current-consumed=0.393 current-consumed-when-joined=0.393
+asn=122532	id=-1  	Main	mac_rx_collision=224,mac_rx = 1909,collision rate =11.733892090099529 
+asn=122532	id=-1  	Main	duty_cycle_joined_average=1.2021666666666666 
+asn=122532	id=-1  	Main	duty_cycle_rx_bc=0.007414835082042187, duty_cycle_tx_bc=0.007414835082042187,duty_cycle_rx_uc=0.11239623314247056,duty_cycle_tx_uc=0.11404994136631266,duty_cycle_rx_idle=0.9006135727896047
+asn=122532	id=-1  	Main	simulation completed, results saved at /home/lkw/tsch-sim-history/tsch-sim/examples/mesh/results/single_model_diff_packet_period/7200s-29380-23-0

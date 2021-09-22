@@ -1,0 +1,169 @@
+{
+  "part 1": {
+    "1": {
+      "app_num_tx": 175,
+      "app_num_endpoint_rx": 11,
+      "app_num_lost": 164,
+      "app_reliability": 6.285714285714283,
+      "app_num_queue_drops": 0,
+      "app_num_tx_limit_drops": 74,
+      "app_num_routing_drops": 90,
+      "app_num_scheduling_drops": 0,
+      "app_num_other_drops": 0,
+      "tsch_eb_tx": 277,
+      "tsch_eb_rx": 0,
+      "tsch_keepalive_tx": 0,
+      "tsch_keepalive_rx": 0,
+      "mac_tx": 948,
+      "mac_tx_unicast": 624,
+      "mac_acked": 11,
+      "mac_rx": 26,
+      "mac_rx_error": 646,
+      "mac_rx_collision": 0,
+      "mac_ack_error": 4,
+      "mac_parent_tx_unicast": 0,
+      "mac_parent_acked": 0,
+      "mac_parent_rx": 0,
+      "slots_rx_idle": 29846,
+      "slots_rx_scanning": 0,
+      "slots_rx_packet": 16,
+      "slots_rx_packet_tx_ack": 10,
+      "slots_tx_packet": 324,
+      "slots_tx_packet_rx_ack": 624,
+      "tsch_join_time_sec": 0,
+      "tsch_num_parent_changes": 0,
+      "app_latency_min_s": 0,
+      "app_latency_avg_s": 3.016090909090909,
+      "app_latency_max_s": 11.959,
+      "app_latencies": [
+        0.171,
+        0.032,
+        11.263,
+        0,
+        7.898,
+        11.959,
+        0,
+        1.532,
+        0.086,
+        0.075,
+        0.161
+      ],
+      "radio_duty_cycle": 1.824,
+      "radio_duty_cycle_joined": 1.824,
+      "charge_uc": 651143.454,
+      "charge_joined_uc": 651143.454,
+      "avg_current_uA": 180.873,
+      "avg_current_joined_uA": 180.873,
+      "routing_tx": 48,
+      "routing_rx": 21,
+      "routing_join_time_sec": 0,
+      "routing_num_parent_changes": 0
+    },
+    "2": {
+      "app_num_tx": 7,
+      "app_num_endpoint_rx": 3,
+      "app_num_lost": 3,
+      "app_reliability": 50,
+      "app_num_queue_drops": 0,
+      "app_num_tx_limit_drops": 3,
+      "app_num_routing_drops": 0,
+      "app_num_scheduling_drops": 0,
+      "app_num_other_drops": 0,
+      "tsch_eb_tx": 0,
+      "tsch_eb_rx": 13,
+      "tsch_keepalive_tx": 0,
+      "tsch_keepalive_rx": 0,
+      "mac_tx": 186,
+      "mac_tx_unicast": 37,
+      "mac_acked": 8,
+      "mac_rx": 59,
+      "mac_rx_error": 160,
+      "mac_rx_collision": 0,
+      "mac_ack_error": 2,
+      "mac_parent_tx_unicast": 33,
+      "mac_parent_acked": 4,
+      "mac_parent_rx": 19,
+      "slots_rx_idle": 29810,
+      "slots_rx_scanning": 0,
+      "slots_rx_packet": 31,
+      "slots_rx_packet_tx_ack": 15,
+      "slots_tx_packet": 149,
+      "slots_tx_packet_rx_ack": 37,
+      "tsch_join_time_sec": 0,
+      "tsch_num_parent_changes": 4,
+      "app_latency_min_s": 0.021,
+      "app_latency_avg_s": 0.08199999999999999,
+      "app_latency_max_s": 0.15,
+      "app_latencies": [
+        0.15,
+        0.075,
+        0.021
+      ],
+      "radio_duty_cycle": 1.822,
+      "radio_duty_cycle_joined": 1.822,
+      "charge_uc": 650358.05,
+      "charge_joined_uc": 650358.05,
+      "avg_current_uA": 180.655,
+      "avg_current_joined_uA": 180.655,
+      "routing_tx": 161,
+      "routing_rx": 32,
+      "routing_join_time_sec": 3.986,
+      "routing_num_parent_changes": 4
+    },
+    "global-stats for this duration": {
+      "app-packets-sent": [
+        {
+          "total": 182,
+          "name": "Number of application packets sent"
+        }
+      ],
+      "app-packets-received": [
+        {
+          "total": 14,
+          "name": "Number of application packets received"
+        }
+      ],
+      "app-packets-lost": [
+        {
+          "total": 167,
+          "name": "Number of application packets lost"
+        }
+      ],
+      "current-consumed": [
+        {
+          "name": "Current consumed",
+          "unit": "mA",
+          "mean": 0.362
+        }
+      ],
+      "current-consumed-when-joined": [
+        {
+          "name": "Current consumed",
+          "unit": "mA",
+          "mean": 0.362
+        }
+      ],
+      "e2e-delivery": [
+        {
+          "value": 7.734806629834257,
+          "name": "E2E delivery ratio",
+          "unit": "%"
+        },
+        {
+          "value": 92.26519337016575,
+          "name": "E2E loss ratio",
+          "unit": "%"
+        }
+      ],
+      "e2e-latency": [
+        {
+          "name": "E2E latency",
+          "min": 0,
+          "max": 11.959,
+          "unit": "s",
+          "mean": 2.387357142857143
+        }
+      ]
+    }
+  }
+}

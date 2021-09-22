@@ -1,0 +1,38 @@
+asn=0    	id=-1  	Main	copying configuration file /home/lkw/tsch-sim-history/tsch-sim/examples/star/config_star_different_gen_time.json to output directory /home/lkw/tsch-sim-history/tsch-sim/examples/star/results/single_model_diff_packet_period/3600s-5704-60-0/config_star_different_gen_time.json
+asn=0    	id=-1  	Main	initializing 3600 seconds long simulation...
+asn=0    	id=-1  	network	network stats has been reset
+asn=0    	id=-1  	Main	creating 1 "root" nodes...
+asn=0    	id=-1  	Main	creating 9 "leaf" nodes...
+asn=0    	id=-1  	Main	generating a star network with 10 nodes
+asn=0    	id=1   	Main	Set position x=110.36 y=110.36
+asn=0    	id=2   	Main	Set position x=194.90 y=181.30
+asn=0    	id=3   	Main	Set position x=129.52 y=219.04
+asn=0    	id=4   	Main	Set position x=55.18 y=205.93
+asn=0    	id=5   	Main	Set position x=6.66 y=148.11
+asn=0    	id=6   	Main	Set position x=6.66 y=72.61
+asn=0    	id=7   	Main	Set position x=55.18 y=14.79
+asn=0    	id=8   	Main	Set position x=129.52 y=1.68
+asn=0    	id=9   	Main	Set position x=194.90 y=39.42
+asn=0    	id=10  	Main	Set position x=220.72 y=110.36
+asn=0    	id=-1  	Main	starting simulation main loop...
+asn=0    	id=-1  	Main	add network to timeslot switcher
+asn=0    	id=-1  	Main	network = [object Object]
+asn=189341	id=-1  	Main	periodic neighbor processing for all nodes
+asn=315569	id=-1  	Main	periodic neighbor processing for all nodes
+asn=504909	id=-1  	Main	periodic neighbor processing for all nodes
+asn=631136	id=-1  	Main	ending simulation at 3600.000 seconds
+asn=631136	id=-1  	Main	this.stats_routing_num_tx=NaN, this.stats_routing_num_rx=NaN
+asn=631136	id=-1  	Main	this.stats_routing_num_tx=NaN, this.stats_routing_num_rx=NaN
+asn=631136	id=-1  	Main	this.stats_routing_num_tx=NaN, this.stats_routing_num_rx=NaN
+asn=631136	id=-1  	Main	this.stats_routing_num_tx=NaN, this.stats_routing_num_rx=NaN
+asn=631136	id=-1  	Main	this.stats_routing_num_tx=NaN, this.stats_routing_num_rx=NaN
+asn=631136	id=-1  	Main	this.stats_routing_num_tx=NaN, this.stats_routing_num_rx=NaN
+asn=631136	id=-1  	Main	this.stats_routing_num_tx=NaN, this.stats_routing_num_rx=NaN
+asn=631136	id=-1  	Main	this.stats_routing_num_tx=NaN, this.stats_routing_num_rx=NaN
+asn=631136	id=-1  	Main	this.stats_routing_num_tx=NaN, this.stats_routing_num_rx=NaN
+asn=631136	id=-1  	Main	this.stats_routing_num_tx=NaN, this.stats_routing_num_rx=NaN
+asn=631136	id=-1  	Main	packet stats: PDR=19.223% generated=1575 received=292 lost=1227 (tx_limit/queue/routing/scheduling/other=3/1050/174/0/0)
+asn=631136	id=-1  	Main	link stats: PAR=0.000% tx=0 acked=0
+asn=631136	id=-1  	Main	current-consumed=13.648 current-consumed-when-joined=13.648
+asn=631136	id=-1  	Main	mac_rx_collision=0,mac_rx = 634,collision rate =0 
+asn=631136	id=-1  	Main	simulation completed, results saved at /home/lkw/tsch-sim-history/tsch-sim/examples/star/results/single_model_diff_packet_period/3600s-5704-60-0
